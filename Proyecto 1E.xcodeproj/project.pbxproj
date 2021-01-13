@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FB53486325ADEFFC00B1003B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53486225ADEFFC00B1003B /* main.swift */; };
+		FB53487225AF4F7600B1003B /* Primero.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53487125AF4F7600B1003B /* Primero.swift */; };
+		FB53487525AF4F8800B1003B /* Segundo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53487425AF4F8800B1003B /* Segundo.swift */; };
+		FB53487A25AF924600B1003B /* Vendedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53487925AF924600B1003B /* Vendedor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		FB53485F25ADEFFC00B1003B /* Proyecto 1E */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Proyecto 1E"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB53486225ADEFFC00B1003B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FB53487125AF4F7600B1003B /* Primero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primero.swift; sourceTree = "<group>"; };
+		FB53487425AF4F8800B1003B /* Segundo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segundo.swift; sourceTree = "<group>"; };
+		FB53487925AF924600B1003B /* Vendedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendedor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				FB53486225ADEFFC00B1003B /* main.swift */,
+				FB53487125AF4F7600B1003B /* Primero.swift */,
+				FB53487425AF4F8800B1003B /* Segundo.swift */,
+				FB53487925AF924600B1003B /* Vendedor.swift */,
 			);
 			path = "Proyecto 1E";
 			sourceTree = "<group>";
@@ -119,6 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB53487A25AF924600B1003B /* Vendedor.swift in Sources */,
+				FB53487225AF4F7600B1003B /* Primero.swift in Sources */,
+				FB53487525AF4F8800B1003B /* Segundo.swift in Sources */,
 				FB53486325ADEFFC00B1003B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
