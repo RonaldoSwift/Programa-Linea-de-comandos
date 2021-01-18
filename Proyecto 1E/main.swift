@@ -188,12 +188,12 @@ print(vendedora1.sumarNumeroGrandes())
 
 
 
-var cliente1 = Cheff(nombre: "Jose")
+/*var cliente1 = Cheff(nombre: "Jose")
 
 cliente1.preparar(tipoDeCarne: "pezcado")
 cliente1.cobrar(dinero: 20.90)
 
-print("Listo!!!!")
+print("Listo!!!!")*/
 
 
 
@@ -211,3 +211,27 @@ hamburguesa.carne = "Cerdo"
 
 print("2. El tipo de carne que prefiere es: \(hamburguesa.carne)")
 */
+
+
+var hamburguesas = Hamburguesas(carne: "Cerdo", papas: "Papas fritas", cremas: false, ensalada: false)
+
+
+print("Preparando Hamburguesa: ")
+
+print("¿Que tipo de carne?")
+hamburguesas.carne
+
+print("¿Servir papas?")
+hamburguesas.papas
+
+print("¿Servir ensalada?")
+hamburguesas.ensalada
+
+print("¿Servir cremas?")
+hamburguesas.cremas
+
+print("Cobrando...")
+hamburguesas.precio
+
+
+
