@@ -7,7 +7,7 @@
 
 import Foundation
 
-private class Licuadora{
+/*private class Licuadora{
     
     func licuar() -> String {
         return "Licuando..."
@@ -37,3 +37,4 @@ class Vendedor{
         print("Cobrando... \(precio)")
     }
 }
+*/

@@ -165,7 +165,7 @@ print(calculo.lx.sumar(numero1: 30, numero2: 10))
 */
 
 
-var vendedor = Vendedor(
+/*var vendedor = Vendedor(
     jugos: "jueg de papaya",
     dinero: 10
 )
@@ -176,4 +176,38 @@ print(vendedor.preparar())
 
 print("DESEO PAGAR \n")
 vendedor.cobrar(precio: 20)
+*/
 
+
+/*var vendedora1 = Vendedora(tercerNumero: 2000, cuartoNumero: 4000)
+
+print("Sumando numeros...\n")
+print(vendedora1.sumarNumeroGrandes())
+
+*/
+
+
+
+var cliente1 = Cheff(nombre: "Jose")
+
+cliente1.preparar(tipoDeCarne: "pezcado")
+cliente1.cobrar(dinero: 20.90)
+
+print("Listo!!!!")
+
+
+
+/*let hamburguesa = Hamburguesa()
+
+//persona1.pan = "SHiabata"
+//persona1.lechuga = true
+//persona1.papas = true
+
+
+print("El tipo de carne que prefiere es: \(hamburguesa.carne)")
+
+hamburguesa.carne = "Cerdo"
+
+
+print("2. El tipo de carne que prefiere es: \(hamburguesa.carne)")
+*/

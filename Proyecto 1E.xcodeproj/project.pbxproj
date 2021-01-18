@@ -11,6 +11,13 @@
 		FB53487225AF4F7600B1003B /* Primero.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53487125AF4F7600B1003B /* Primero.swift */; };
 		FB53487525AF4F8800B1003B /* Segundo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53487425AF4F8800B1003B /* Segundo.swift */; };
 		FB53487A25AF924600B1003B /* Vendedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53487925AF924600B1003B /* Vendedor.swift */; };
+		FB53488025B0989A00B1003B /* Vendedora.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53487F25B0989A00B1003B /* Vendedora.swift */; };
+		FB53488525B0C8BE00B1003B /* Parrilla.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53488425B0C8BE00B1003B /* Parrilla.swift */; };
+		FB53488825B1E66F00B1003B /* Hamburguesa.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53488725B1E66F00B1003B /* Hamburguesa.swift */; };
+		FB53489825B1F1BA00B1003B /* Hamburguesa.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53488725B1E66F00B1003B /* Hamburguesa.swift */; };
+		FB5348A425B1F7CD00B1003B /* ParrillaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348A325B1F7CD00B1003B /* ParrillaTest.swift */; };
+		FB5348A725B20C9200B1003B /* Parrilla.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53488425B0C8BE00B1003B /* Parrilla.swift */; };
+		FB5348AD25B2122000B1003B /* ComidaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348AC25B2122000B1003B /* ComidaTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,10 +38,24 @@
 		FB53487125AF4F7600B1003B /* Primero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primero.swift; sourceTree = "<group>"; };
 		FB53487425AF4F8800B1003B /* Segundo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segundo.swift; sourceTree = "<group>"; };
 		FB53487925AF924600B1003B /* Vendedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendedor.swift; sourceTree = "<group>"; };
+		FB53487F25B0989A00B1003B /* Vendedora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendedora.swift; sourceTree = "<group>"; };
+		FB53488425B0C8BE00B1003B /* Parrilla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parrilla.swift; sourceTree = "<group>"; };
+		FB53488725B1E66F00B1003B /* Hamburguesa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamburguesa.swift; sourceTree = "<group>"; };
+		FB53488E25B1F07600B1003B /* Proyecto 1ETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proyecto 1ETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB53489225B1F07600B1003B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB5348A325B1F7CD00B1003B /* ParrillaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrillaTest.swift; sourceTree = "<group>"; };
+		FB5348AC25B2122000B1003B /* ComidaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComidaTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FB53485C25ADEFFC00B1003B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB53488B25B1F07600B1003B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -48,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				FB53486125ADEFFC00B1003B /* Proyecto 1E */,
+				FB53488F25B1F07600B1003B /* Proyecto 1ETests */,
 				FB53486025ADEFFC00B1003B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				FB53485F25ADEFFC00B1003B /* Proyecto 1E */,
+				FB53488E25B1F07600B1003B /* Proyecto 1ETests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,8 +90,21 @@
 				FB53487125AF4F7600B1003B /* Primero.swift */,
 				FB53487425AF4F8800B1003B /* Segundo.swift */,
 				FB53487925AF924600B1003B /* Vendedor.swift */,
+				FB53487F25B0989A00B1003B /* Vendedora.swift */,
+				FB53488425B0C8BE00B1003B /* Parrilla.swift */,
+				FB53488725B1E66F00B1003B /* Hamburguesa.swift */,
 			);
 			path = "Proyecto 1E";
+			sourceTree = "<group>";
+		};
+		FB53488F25B1F07600B1003B /* Proyecto 1ETests */ = {
+			isa = PBXGroup;
+			children = (
+				FB53489225B1F07600B1003B /* Info.plist */,
+				FB5348A325B1F7CD00B1003B /* ParrillaTest.swift */,
+				FB5348AC25B2122000B1003B /* ComidaTest.swift */,
+			);
+			path = "Proyecto 1ETests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -91,6 +127,23 @@
 			productReference = FB53485F25ADEFFC00B1003B /* Proyecto 1E */;
 			productType = "com.apple.product-type.tool";
 		};
+		FB53488D25B1F07600B1003B /* Proyecto 1ETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB53489325B1F07600B1003B /* Build configuration list for PBXNativeTarget "Proyecto 1ETests" */;
+			buildPhases = (
+				FB53488A25B1F07600B1003B /* Sources */,
+				FB53488B25B1F07600B1003B /* Frameworks */,
+				FB53488C25B1F07600B1003B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Proyecto 1ETests";
+			productName = "Proyecto 1ETests";
+			productReference = FB53488E25B1F07600B1003B /* Proyecto 1ETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -101,6 +154,9 @@
 				LastUpgradeCheck = 1200;
 				TargetAttributes = {
 					FB53485E25ADEFFC00B1003B = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					FB53488D25B1F07600B1003B = {
 						CreatedOnToolsVersion = 12.0.1;
 					};
 				};
@@ -119,19 +175,44 @@
 			projectRoot = "";
 			targets = (
 				FB53485E25ADEFFC00B1003B /* Proyecto 1E */,
+				FB53488D25B1F07600B1003B /* Proyecto 1ETests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB53488C25B1F07600B1003B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FB53485B25ADEFFC00B1003B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB53488525B0C8BE00B1003B /* Parrilla.swift in Sources */,
+				FB53488025B0989A00B1003B /* Vendedora.swift in Sources */,
 				FB53487A25AF924600B1003B /* Vendedor.swift in Sources */,
 				FB53487225AF4F7600B1003B /* Primero.swift in Sources */,
+				FB53488825B1E66F00B1003B /* Hamburguesa.swift in Sources */,
 				FB53487525AF4F8800B1003B /* Segundo.swift in Sources */,
 				FB53486325ADEFFC00B1003B /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB53488A25B1F07600B1003B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB5348AD25B2122000B1003B /* ComidaTest.swift in Sources */,
+				FB5348A725B20C9200B1003B /* Parrilla.swift in Sources */,
+				FB53489825B1F1BA00B1003B /* Hamburguesa.swift in Sources */,
+				FB5348A425B1F7CD00B1003B /* ParrillaTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +356,42 @@
 			};
 			name = Release;
 		};
+		FB53489425B1F07600B1003B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H9JXH336V5;
+				INFOPLIST_FILE = "Proyecto 1ETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ronaldo.Proyecto-1ETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FB53489525B1F07600B1003B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = H9JXH336V5;
+				INFOPLIST_FILE = "Proyecto 1ETests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ronaldo.Proyecto-1ETests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -292,6 +409,15 @@
 			buildConfigurations = (
 				FB53486725ADEFFC00B1003B /* Debug */,
 				FB53486825ADEFFC00B1003B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB53489325B1F07600B1003B /* Build configuration list for PBXNativeTarget "Proyecto 1ETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB53489425B1F07600B1003B /* Debug */,
+				FB53489525B1F07600B1003B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
