@@ -15,7 +15,7 @@ class Hamburguesas{
     var ensalada: Bool
     var precio: Double = 4.50
     
-    init(carne:String,papas:String,cremas:Bool, ensalada:Bool) {
+    init(carne:String, papas:String, cremas:Bool, ensalada:Bool) {
         self.carne = carne
         self.papas = papas
         self.cremas = cremas
