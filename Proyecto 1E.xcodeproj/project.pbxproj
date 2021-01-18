@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FB53486325ADEFFC00B1003B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53486225ADEFFC00B1003B /* main.swift */; };
-		FB5348A425B1F7CD00B1003B /* ParrillaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348A325B1F7CD00B1003B /* ParrillaTest.swift */; };
-		FB5348AD25B2122000B1003B /* ComidaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348AC25B2122000B1003B /* ComidaTest.swift */; };
 		FB5348B125B5D53700B1003B /* Hamburguesas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348B025B5D53700B1003B /* Hamburguesas.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +28,6 @@
 		FB53486225ADEFFC00B1003B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FB53488E25B1F07600B1003B /* Proyecto 1ETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proyecto 1ETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB53489225B1F07600B1003B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB5348A325B1F7CD00B1003B /* ParrillaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrillaTest.swift; sourceTree = "<group>"; };
-		FB5348AC25B2122000B1003B /* ComidaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComidaTest.swift; sourceTree = "<group>"; };
 		FB5348B025B5D53700B1003B /* Hamburguesas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamburguesas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,8 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				FB53489225B1F07600B1003B /* Info.plist */,
-				FB5348A325B1F7CD00B1003B /* ParrillaTest.swift */,
-				FB5348AC25B2122000B1003B /* ComidaTest.swift */,
 			);
 			path = "Proyecto 1ETests";
 			sourceTree = "<group>";
@@ -187,8 +181,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5348AD25B2122000B1003B /* ComidaTest.swift in Sources */,
-				FB5348A425B1F7CD00B1003B /* ParrillaTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

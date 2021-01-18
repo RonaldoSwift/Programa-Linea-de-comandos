@@ -78,6 +78,11 @@ class Vendedor{
     func cobrar(precio: Double) {
         hamburguesas.precio = precio
         print("El precio de la hamburguesa es: \(precio)")
+        if( precio == 4.50){
+            print("El precio es el indicado...")
+        }else{
+            print("El precio no es correcto...")
+        }
         
     }
     func vender() {
@@ -101,5 +106,8 @@ class Vendedor{
     }
     func preguntarPorEnsalada(){
         print("Deseas ensalada?")
+    }
+    func pedirPrecio(){
+        print("El precio es: $4.50" )
     }
 }

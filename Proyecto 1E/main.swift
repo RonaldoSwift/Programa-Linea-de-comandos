@@ -25,7 +25,10 @@ vendedor.preguntarPorEnsalada()
 var respuesta4DeCliente = readLine()!
 vendedor.despacharEnsalada(ensalada: respuesta4DeCliente)
 
-vendedor.cobrar(precio: 4.50)
+vendedor.pedirPrecio()
+var respuesta5DeCliente = readLine()!
+vendedor.cobrar(precio: Double(respuesta5DeCliente)!)
+
 print("\nCobrando...")
 
 vendedor.vender()
