@@ -217,8 +217,7 @@ var vendedor = Vendedor(nombre: "Jose")
 
 vendedor.preguntarPorElTipoDeCarne()
 var respuesta1DelCliente = readLine()!
-vendedor.preparar(tipoDeCarne: "Res")
-
+vendedor.preparar(tipoDeCarne: respuesta1DelCliente)
 
 vendedor.preguntarPorPapas()
 var respuesta2DeCliente = readLine()!
