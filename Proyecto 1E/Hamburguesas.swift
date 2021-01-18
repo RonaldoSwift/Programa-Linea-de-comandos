@@ -11,11 +11,11 @@ class Hamburguesas{
     
     var carne: String
     var papas: String
-    var cremas: Bool
-    var ensalada: Bool
-    var precio: Double = 4.50
+    var cremas: String
+    var ensalada: String
+    var precio: Double = 0
     
-    init(carne:String, papas:String, cremas:Bool, ensalada:Bool) {
+    init(carne:String, papas:String, cremas:String, ensalada:String) {
         self.carne = carne
         self.papas = papas
         self.cremas = cremas
@@ -29,8 +29,8 @@ class Vendedor{
     var hamburguesas: Hamburguesas = Hamburguesas(
         carne: "",
         papas: "",
-        cremas: false,
-        ensalada: false
+        cremas: "",
+        ensalada: ""
     )
     
     init(nombre:String) {
@@ -38,13 +38,13 @@ class Vendedor{
     }
     
     func preparar(tipoDeCarne: String) {
-        print("Preparando carne de: \(tipoDeCarne)")
+        print("La carne es de: \(tipoDeCarne)")
         
     }
     
     func despacharPapas(papas:String) {
         
-        if (papas == "Si") {
+        if (papas == "si") {
             print("Preparando papas fritas...")
         }
         else {
@@ -52,16 +52,16 @@ class Vendedor{
         }
     }
     
-    func despacharCremas(cremas: Bool) {
-        if (cremas == true) {
+    func despacharCremas(cremas: String) {
+        if (cremas == "si") {
             print("Sirviendo con cremas...")
         }
         else {
             print("No servir cremas...")
         }
     }
-    func despacharEnsalada(ensalada: Bool){
-        if (ensalada == true) {
+    func despacharEnsalada(ensalada: String){
+        if (ensalada == "si") {
             print("Sirviendo con ensalda...")
         }else {
             print("No servir ensalda...")
@@ -75,4 +75,15 @@ class Vendedor{
     func vender() {
         print("Pedido realizado...")
     }
+    func preguntarPorPapas(){
+        print("Deseas papas?")
+    }
+    
+    func preguntarPorCremas(){
+        print("Deseas cremas?")
+    }
+    func preguntarPorEnsalada(){
+        print("Deseas ensalada?")
+    }
+    
 }
