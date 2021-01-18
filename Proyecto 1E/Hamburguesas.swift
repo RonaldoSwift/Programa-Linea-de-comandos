@@ -38,6 +38,7 @@ class Vendedor{
     }
     
     func preparar(tipoDeCarne: String) {
+        hamburguesas.carne = tipoDeCarne
         print("La carne es de: \(tipoDeCarne)")
         
     }
@@ -45,25 +46,31 @@ class Vendedor{
     func despacharPapas(papas:String) {
         
         if (papas == "si") {
+            hamburguesas.papas = papas
             print("Preparando papas fritas...")
         }
         else {
+            hamburguesas.papas = papas
             print("No preparar papas fritas...")
         }
     }
     
     func despacharCremas(cremas: String) {
         if (cremas == "si") {
+            hamburguesas.cremas = cremas
             print("Sirviendo con cremas...")
         }
         else {
+            hamburguesas.cremas = cremas
             print("No servir cremas...")
         }
     }
     func despacharEnsalada(ensalada: String){
         if (ensalada == "si") {
+            hamburguesas.ensalada = ensalada
             print("Sirviendo con ensalda...")
         }else {
+            hamburguesas.ensalada = ensalada
             print("No servir ensalda...")
         }
     }
@@ -74,7 +81,15 @@ class Vendedor{
     }
     func vender() {
         print("Pedido realizado...")
+        print("Carne de: \(hamburguesas.carne)")
+        print("Papas: \(hamburguesas.papas)")
+        print("Cremas: \(hamburguesas.cremas)")
+        print("Ensalada: \(hamburguesas.ensalada)")
     }
+    func preguntarPorElTipoDeCarne(){
+        print("Que tipo de carne?")
+    }
+    
     func preguntarPorPapas(){
         print("Deseas papas?")
     }

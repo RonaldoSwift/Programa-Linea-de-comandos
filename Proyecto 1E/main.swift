@@ -215,20 +215,25 @@ print("2. El tipo de carne que prefiere es: \(hamburguesa.carne)")
 
 var vendedor = Vendedor(nombre: "Jose")
 
+vendedor.preguntarPorElTipoDeCarne()
+var respuesta1DelCliente = readLine()!
+vendedor.preparar(tipoDeCarne: "Res")
+
+
 vendedor.preguntarPorPapas()
-var respuestaDeCliente = readLine()!
-vendedor.despacharPapas(papas: respuestaDeCliente)
+var respuesta2DeCliente = readLine()!
+vendedor.despacharPapas(papas: respuesta2DeCliente)
 
 vendedor.preguntarPorCremas()
-var respuesta2DeCliente = readLine()!
-vendedor.despacharCremas(cremas: respuesta2DeCliente)
+var respuesta3DeCliente = readLine()!
+vendedor.despacharCremas(cremas: respuesta3DeCliente)
 
 vendedor.preguntarPorEnsalada()
-var respuesta3DeCliente = readLine()!
-vendedor.despacharEnsalada(ensalada: respuesta3DeCliente)
+var respuesta4DeCliente = readLine()!
+vendedor.despacharEnsalada(ensalada: respuesta4DeCliente)
 
 vendedor.cobrar(precio: 4.50)
-print("Cobrando...")
+print("\nCobrando...")
 
 vendedor.vender()
 
