@@ -76,6 +76,7 @@ class Vendedor{
     }
     
     func cobrar(precio: Double) {
+        hamburguesas.precio = precio
         print("El precio de la hamburguesa es: \(precio)")
         
     }
@@ -85,6 +86,7 @@ class Vendedor{
         print("Papas: \(hamburguesas.papas)")
         print("Cremas: \(hamburguesas.cremas)")
         print("Ensalada: \(hamburguesas.ensalada)")
+        print("Precio: \(hamburguesas.precio)")
     }
     func preguntarPorElTipoDeCarne(){
         print("Que tipo de carne?")
@@ -100,5 +102,4 @@ class Vendedor{
     func preguntarPorEnsalada(){
         print("Deseas ensalada?")
     }
-    
 }
