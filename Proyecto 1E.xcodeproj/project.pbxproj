@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		FB53486325ADEFFC00B1003B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53486225ADEFFC00B1003B /* main.swift */; };
 		FB5348B125B5D53700B1003B /* Hamburguesas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348B025B5D53700B1003B /* Hamburguesas.swift */; };
+		FB5348E425B7366400B1003B /* VendedorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348E325B7366400B1003B /* VendedorTest.swift */; };
+		FB5348E725B736BB00B1003B /* Hamburguesas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348B025B5D53700B1003B /* Hamburguesas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +31,7 @@
 		FB53488E25B1F07600B1003B /* Proyecto 1ETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proyecto 1ETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB53489225B1F07600B1003B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5348B025B5D53700B1003B /* Hamburguesas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamburguesas.swift; sourceTree = "<group>"; };
+		FB5348E325B7366400B1003B /* VendedorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				FB53489225B1F07600B1003B /* Info.plist */,
+				FB5348E325B7366400B1003B /* VendedorTest.swift */,
 			);
 			path = "Proyecto 1ETests";
 			sourceTree = "<group>";
@@ -135,6 +139,7 @@
 					};
 					FB53488D25B1F07600B1003B = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -181,6 +186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5348E725B736BB00B1003B /* Hamburguesas.swift in Sources */,
+				FB5348E425B7366400B1003B /* VendedorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +334,7 @@
 		FB53489425B1F07600B1003B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = H9JXH336V5;
@@ -338,6 +346,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ronaldo.Proyecto-1ETests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -345,6 +354,7 @@
 		FB53489525B1F07600B1003B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = H9JXH336V5;
