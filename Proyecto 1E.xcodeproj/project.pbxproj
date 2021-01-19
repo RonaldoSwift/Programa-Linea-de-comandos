@@ -8,16 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FB53486325ADEFFC00B1003B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53486225ADEFFC00B1003B /* main.swift */; };
-		FB53487225AF4F7600B1003B /* Primero.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53487125AF4F7600B1003B /* Primero.swift */; };
-		FB53487525AF4F8800B1003B /* Segundo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53487425AF4F8800B1003B /* Segundo.swift */; };
-		FB53487A25AF924600B1003B /* Vendedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53487925AF924600B1003B /* Vendedor.swift */; };
-		FB53488025B0989A00B1003B /* Vendedora.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53487F25B0989A00B1003B /* Vendedora.swift */; };
-		FB53488525B0C8BE00B1003B /* Parrilla.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53488425B0C8BE00B1003B /* Parrilla.swift */; };
-		FB53488825B1E66F00B1003B /* Hamburguesa.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53488725B1E66F00B1003B /* Hamburguesa.swift */; };
-		FB53489825B1F1BA00B1003B /* Hamburguesa.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53488725B1E66F00B1003B /* Hamburguesa.swift */; };
-		FB5348A425B1F7CD00B1003B /* ParrillaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348A325B1F7CD00B1003B /* ParrillaTest.swift */; };
-		FB5348A725B20C9200B1003B /* Parrilla.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53488425B0C8BE00B1003B /* Parrilla.swift */; };
-		FB5348AD25B2122000B1003B /* ComidaTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348AC25B2122000B1003B /* ComidaTest.swift */; };
+		FB5348B125B5D53700B1003B /* Hamburguesas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348B025B5D53700B1003B /* Hamburguesas.swift */; };
+		FB5348E425B7366400B1003B /* VendedorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348E325B7366400B1003B /* VendedorTest.swift */; };
+		FB5348E725B736BB00B1003B /* Hamburguesas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348B025B5D53700B1003B /* Hamburguesas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,16 +28,10 @@
 /* Begin PBXFileReference section */
 		FB53485F25ADEFFC00B1003B /* Proyecto 1E */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Proyecto 1E"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB53486225ADEFFC00B1003B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		FB53487125AF4F7600B1003B /* Primero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Primero.swift; sourceTree = "<group>"; };
-		FB53487425AF4F8800B1003B /* Segundo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segundo.swift; sourceTree = "<group>"; };
-		FB53487925AF924600B1003B /* Vendedor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendedor.swift; sourceTree = "<group>"; };
-		FB53487F25B0989A00B1003B /* Vendedora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vendedora.swift; sourceTree = "<group>"; };
-		FB53488425B0C8BE00B1003B /* Parrilla.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parrilla.swift; sourceTree = "<group>"; };
-		FB53488725B1E66F00B1003B /* Hamburguesa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamburguesa.swift; sourceTree = "<group>"; };
 		FB53488E25B1F07600B1003B /* Proyecto 1ETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proyecto 1ETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB53489225B1F07600B1003B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB5348A325B1F7CD00B1003B /* ParrillaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParrillaTest.swift; sourceTree = "<group>"; };
-		FB5348AC25B2122000B1003B /* ComidaTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComidaTest.swift; sourceTree = "<group>"; };
+		FB5348B025B5D53700B1003B /* Hamburguesas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamburguesas.swift; sourceTree = "<group>"; };
+		FB5348E325B7366400B1003B /* VendedorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,12 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				FB53486225ADEFFC00B1003B /* main.swift */,
-				FB53487125AF4F7600B1003B /* Primero.swift */,
-				FB53487425AF4F8800B1003B /* Segundo.swift */,
-				FB53487925AF924600B1003B /* Vendedor.swift */,
-				FB53487F25B0989A00B1003B /* Vendedora.swift */,
-				FB53488425B0C8BE00B1003B /* Parrilla.swift */,
-				FB53488725B1E66F00B1003B /* Hamburguesa.swift */,
+				FB5348B025B5D53700B1003B /* Hamburguesas.swift */,
 			);
 			path = "Proyecto 1E";
 			sourceTree = "<group>";
@@ -101,8 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				FB53489225B1F07600B1003B /* Info.plist */,
-				FB5348A325B1F7CD00B1003B /* ParrillaTest.swift */,
-				FB5348AC25B2122000B1003B /* ComidaTest.swift */,
+				FB5348E325B7366400B1003B /* VendedorTest.swift */,
 			);
 			path = "Proyecto 1ETests";
 			sourceTree = "<group>";
@@ -158,6 +139,7 @@
 					};
 					FB53488D25B1F07600B1003B = {
 						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
 					};
 				};
 			};
@@ -195,12 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB53488525B0C8BE00B1003B /* Parrilla.swift in Sources */,
-				FB53488025B0989A00B1003B /* Vendedora.swift in Sources */,
-				FB53487A25AF924600B1003B /* Vendedor.swift in Sources */,
-				FB53487225AF4F7600B1003B /* Primero.swift in Sources */,
-				FB53488825B1E66F00B1003B /* Hamburguesa.swift in Sources */,
-				FB53487525AF4F8800B1003B /* Segundo.swift in Sources */,
+				FB5348B125B5D53700B1003B /* Hamburguesas.swift in Sources */,
 				FB53486325ADEFFC00B1003B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,10 +186,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5348AD25B2122000B1003B /* ComidaTest.swift in Sources */,
-				FB5348A725B20C9200B1003B /* Parrilla.swift in Sources */,
-				FB53489825B1F1BA00B1003B /* Hamburguesa.swift in Sources */,
-				FB5348A425B1F7CD00B1003B /* ParrillaTest.swift in Sources */,
+				FB5348E725B736BB00B1003B /* Hamburguesas.swift in Sources */,
+				FB5348E425B7366400B1003B /* VendedorTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +334,7 @@
 		FB53489425B1F07600B1003B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = H9JXH336V5;
@@ -370,6 +346,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Ronaldo.Proyecto-1ETests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -377,6 +354,7 @@
 		FB53489525B1F07600B1003B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = H9JXH336V5;
