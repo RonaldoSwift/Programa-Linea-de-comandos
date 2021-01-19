@@ -5,7 +5,7 @@
 //  Created by Ronaldo Andre Vargas Huaman on 1/12/21.
 //
 
-import Foundation
+/*import Foundation
 
 var vendedor = Vendedor(nombre: "Jose")
 
@@ -32,3 +32,7 @@ vendedor.cobrar(precio: Double(respuesta5DeCliente)!)
 print("\nCobrando...")
 
 vendedor.vender()
+*/
+
+
+var vendedor = VendedorDeCarros(nombre: <#T##String#>, carro: <#T##Carro#>)
