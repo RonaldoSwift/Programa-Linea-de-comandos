@@ -60,4 +60,4 @@ vendedorDeCarros.estadoDelCarro(estado: respuestaDelCliente4)
 
 print("Imprimiendo Boleta....\n")
 
-vendedorDeCarros.mostrarResumenDeCompra()
+vendedorDeCarros.mostrarResumenDeCompra(carro: )
