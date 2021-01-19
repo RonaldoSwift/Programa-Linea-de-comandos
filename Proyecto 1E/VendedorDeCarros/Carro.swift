@@ -7,16 +7,16 @@
 
 import Foundation
 
-class Carro{
+class Carro {
     
     var precio: Double
     var marca: String
     var modelo: String
     var color: String
-    var estado: Bool
+    var estado: String
     
-    
-    init(precio:Double,marca:String,modelo:String,color:String,estado:Bool) {
+    init(precio:Double,marca:String,modelo:String,color:String,estado:String) {
+        
         self.precio = precio
         self.marca = marca
         self.modelo = modelo
@@ -24,8 +24,4 @@ class Carro{
         self.estado = estado
         
     }
-    
-    
-    
-    
 }

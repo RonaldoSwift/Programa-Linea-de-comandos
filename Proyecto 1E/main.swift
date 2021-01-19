@@ -35,4 +35,4 @@ vendedor.vender()
 */
 
 
-var vendedor = VendedorDeCarros(nombre: <#T##String#>, carro: <#T##Carro#>)
+//var vendedor = VendedorDeCarros(nombre: <#T##String#>, carro: <#T##Carro#>)
