@@ -35,4 +35,29 @@ vendedor.vender()
 */
 
 
-//var vendedor = VendedorDeCarros(nombre: <#T##String#>, carro: <#T##Carro#>)
+print("*****GRAN VENTA DE CARROS*****")
+print("\nLlene los datos...")
+
+var vendedorDeCarros = VendedorDeCarros(nombre: "Juan")
+
+vendedorDeCarros.preguntarPorLaMarca()
+var respuestaDelCliente1 = readLine()!
+vendedorDeCarros.marcaDelCarro(marca: respuestaDelCliente1)
+
+vendedorDeCarros.preguntarPorElModelo()
+var respuestaDelCliente2 = readLine()!
+vendedorDeCarros.modeloDelCarro(modelo: respuestaDelCliente2)
+
+vendedorDeCarros.preguntarPorColor()
+var respuestaDelCliente3 = readLine()!
+vendedorDeCarros.colorDelColor(color: respuestaDelCliente3)
+
+vendedorDeCarros.preguntarPorElEstado()
+var respuestaDelCliente4 = readLine()!
+vendedorDeCarros.estadoDelCarro(estado: respuestaDelCliente4)
+
+
+
+print("Imprimiendo Boleta....\n")
+
+vendedorDeCarros.mostrarResumenDeCompra()
