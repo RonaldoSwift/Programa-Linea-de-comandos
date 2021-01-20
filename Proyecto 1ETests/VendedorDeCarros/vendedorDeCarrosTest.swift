@@ -23,34 +23,48 @@ class vendedorDeCarrosTest: XCTestCase {
     }
 
     func testCompraDelPrimerCarro() throws {
-        vendedorDeCarros.encontrarCarro(marca: "Toyota", modelo: "RAV4", color: "Plomo")
-        XCTAssertEqual("Toyota", vendedorDeCarros.carro1.marca)
+        let carroEncontrado1: Carro = vendedorDeCarros.encontrarCarro(marca: "Toyota", modelo: "RAV4", color: "Plomo")
+        XCTAssertEqual("Toyota", carroEncontrado1.marca)
+        XCTAssertEqual("RAV4", carroEncontrado1.modelo)
+        XCTAssertEqual("Plomo", carroEncontrado1.color)
     }
     
     func testCompraDelSegundoCarro() throws {
-        
-        vendedorDeCarros.encontrarCarro(marca: "Toyota", modelo: "Prado", color: "Azul")
-        XCTAssertEqual("Toyota", vendedorDeCarros.carro2.marca)
+        let carroEncontrado2: Carro = vendedorDeCarros.encontrarCarro(marca: "Toyota", modelo: "Prado", color: "Azul")
+        XCTAssertEqual("Toyota", carroEncontrado2.marca)
+        XCTAssertEqual("Prado", carroEncontrado2.modelo)
+        XCTAssertEqual("Azul", carroEncontrado2.color)
     }
     
     func testCompraDelTercerCarr() throws {
-        vendedorDeCarros.encontrarCarro(marca: "Hiunday", modelo: "Tucson", color: "Griss")
-        XCTAssertEqual("Hiunday", vendedorDeCarros.carro3.marca)
+        let carroEncontrado3: Carro = vendedorDeCarros.encontrarCarro(marca: "Hiunday", modelo: "Tucson", color: "Griss")
+        XCTAssertEqual("Hiunday", carroEncontrado3.marca)
+        XCTAssertEqual("Tucson", carroEncontrado3.modelo)
+        XCTAssertEqual("Griss", carroEncontrado3.color)
+        
     }
     
     func testCompraDelCuartoCarro() throws {
-        vendedorDeCarros.encontrarCarro(marca: "Hiunday", modelo: "SantaFe", color: "Blanco")
-        XCTAssertEqual("Hiunday", vendedorDeCarros.carro4.marca)
+        let carroEncontrado4: Carro = vendedorDeCarros.encontrarCarro(marca: "Hiunday", modelo: "SantaFe", color: "Blanco")
+        XCTAssertEqual("Hiunday", carroEncontrado4.marca)
+        XCTAssertEqual("Tucson", carroEncontrado4.modelo)
+        XCTAssertEqual("Blanco", carroEncontrado4.color)
+        
     }
     
     func testCompraDelQuintoCarro() throws {
-        vendedorDeCarros.encontrarCarro(marca: "Mazda", modelo: "CX5", color: "Rojo")
-        XCTAssertEqual("Mazda", vendedorDeCarros.carro5.marca)
+        let carroEncontrado5: Carro = vendedorDeCarros.encontrarCarro(marca: "Mazda", modelo: "CX5", color: "Rojo")
+        XCTAssertEqual("Mazda", carroEncontrado5.marca)
+        XCTAssertEqual("CX5", carroEncontrado5.modelo)
+        XCTAssertEqual("Rojo", carroEncontrado5.color)
+        
     }
     
     func testCompraDelSextoCarro() throws {
-        vendedorDeCarros.encontrarCarro(marca: "Mazda", modelo: "CX9", color: "Negro")
-        XCTAssertEqual("Mazda", vendedorDeCarros.carro6.marca)
+        let carroEncontrado6: Carro = vendedorDeCarros.encontrarCarro(marca: "Mazda", modelo: "CX9", color: "Negro")
+        XCTAssertEqual("Mazda", carroEncontrado6.marca)
+        XCTAssertEqual("CX9", carroEncontrado6.modelo)
+        XCTAssertEqual("Negro", carroEncontrado6.color)
     }
     
     func testPerformanceExample() throws {
