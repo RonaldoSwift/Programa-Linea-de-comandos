@@ -17,12 +17,6 @@ class VendedorDeCarros {
     var carro6: Carro = Carro(precio: 43000, marca: "Mazda", modelo: "CX9", color: "Negro", estado: "Disponible")
     
     var nombre: String
-    var carro: Carro = Carro(
-        precio: 0,
-        marca: "",
-        modelo: "",
-        color: "",
-        estado: "")
     
     init(nombre: String) {
         self.nombre = nombre
@@ -43,7 +37,7 @@ class VendedorDeCarros {
             return carro1
         }else if(carro2.marca == marca && carro2.modelo == modelo && carro2.color == color){
             return carro2
-        }else if(carro3.marca == marca && carro3.modelo == modelo && carro3.color == modelo){
+        }else if(carro3.marca == marca && carro3.modelo == modelo && carro3.color == color){
             return carro3
         }else if(carro4.marca == marca && carro4.modelo == modelo && carro4.color == color){
             return carro4
