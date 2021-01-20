@@ -47,6 +47,7 @@ var respuestaDelCliente2 = readLine()!
 vendedorDeCarros.preguntarPorColor()
 var respuestaDelCliente3 = readLine()!
 
+print("\n")
 
-vendedorDeCarros.encontrarCarro(marca: respuestaDelCliente1, modelo: respuestaDelCliente2, color: respuestaDelCliente3)
-
+var carroEncontrado = vendedorDeCarros.encontrarCarro(marca: respuestaDelCliente1, modelo: respuestaDelCliente2, color: respuestaDelCliente3)
+vendedorDeCarros.mostrarResumenDeCompra(carro: carroEncontrado)

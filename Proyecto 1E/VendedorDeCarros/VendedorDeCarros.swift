@@ -38,25 +38,26 @@ class VendedorDeCarros {
         print("¿Que color de carro quiere?")
     }
     
-    func encontrarCarro(marca:String,modelo:String,color:String){
+    func encontrarCarro(marca:String,modelo:String,color:String) -> Carro{
         if(carro1.marca == marca && carro1.modelo == modelo && carro1.color == color){
-            mostrarResumenDeCompra(carro: carro1)
+            return carro1
         }else if(carro2.marca == marca && carro2.modelo == modelo && carro2.color == color){
-            mostrarResumenDeCompra(carro: carro2)
+            return carro2
         }else if(carro3.marca == marca && carro3.modelo == modelo && carro3.color == modelo){
-            mostrarResumenDeCompra(carro: carro3)
+            return carro3
         }else if(carro4.marca == marca && carro4.modelo == modelo && carro4.color == color){
-            mostrarResumenDeCompra(carro: carro4)
+            return carro4
         }else if(carro5.marca == marca && carro5.modelo == modelo && carro5.color == color){
-            mostrarResumenDeCompra(carro: carro5)
+            return carro5
         }else if(carro6.marca == marca && carro6.modelo == modelo && carro6.color == color){
-            mostrarResumenDeCompra(carro: carro6)
+            return carro6
         }else{
-            print("El carro que busca no coincide con los carros que tenemos en stock")
+            let carro: Carro = Carro(precio: 0, marca: "", modelo: "", color: "", estado: "")
+            return carro
         }
     }
     
-    private func mostrarResumenDeCompra(carro:Carro){
+     func mostrarResumenDeCompra(carro:Carro){
         print("El precio del carro es: \(carro.precio)")
         print("El marca del carro es: \(carro.marca)")
         print("El modelo del carro es: \(carro.modelo)")
@@ -64,4 +65,3 @@ class VendedorDeCarros {
         print("El estado del carro es: \(carro.estado)")
     }
 }
-
