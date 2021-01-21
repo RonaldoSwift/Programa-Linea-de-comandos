@@ -5,30 +5,49 @@
 //  Created by Ronaldo Andre Vargas Huaman on 1/12/21.
 //
 
-import Foundation
+/*import Foundation
+ 
+ var vendedor = Vendedor(nombre: "Jose")
+ 
+ vendedor.preguntarPorElTipoDeCarne()
+ var respuesta1DelCliente = readLine()!
+ vendedor.preparar(tipoDeCarne: respuesta1DelCliente)
+ 
+ vendedor.preguntarPorPapas()
+ var respuesta2DeCliente = readLine()!
+ vendedor.despacharPapas(papas: respuesta2DeCliente)
+ 
+ vendedor.preguntarPorCremas()
+ var respuesta3DeCliente = readLine()!
+ vendedor.despacharCremas(cremas: respuesta3DeCliente)
+ 
+ vendedor.preguntarPorEnsalada()
+ var respuesta4DeCliente = readLine()!
+ vendedor.despacharEnsalada(ensalada: respuesta4DeCliente)
+ 
+ vendedor.pedirPrecio()
+ var respuesta5DeCliente = readLine()!
+ vendedor.cobrar(precio: Double(respuesta5DeCliente)!)
+ 
+ print("\nCobrando...")
+ 
+ vendedor.vender()
+ */
 
-var vendedor = Vendedor(nombre: "Jose")
 
-vendedor.preguntarPorElTipoDeCarne()
-var respuesta1DelCliente = readLine()!
-vendedor.preparar(tipoDeCarne: respuesta1DelCliente)
+print("*****GRAN VENTA DE CARROS*****")
+print("\nLlene los datos...")
 
-vendedor.preguntarPorPapas()
-var respuesta2DeCliente = readLine()!
-vendedor.despacharPapas(papas: respuesta2DeCliente)
+var vendedorDeCarros = VendedorDeCarros(nombre: "Juan")
 
-vendedor.preguntarPorCremas()
-var respuesta3DeCliente = readLine()!
-vendedor.despacharCremas(cremas: respuesta3DeCliente)
+vendedorDeCarros.preguntarPorLaMarca()
+var respuestaDelCliente1 = readLine()!
+vendedorDeCarros.preguntarPorElModelo()
+var respuestaDelCliente2 = readLine()!
+vendedorDeCarros.preguntarPorColor()
+var respuestaDelCliente3 = readLine()!
 
-vendedor.preguntarPorEnsalada()
-var respuesta4DeCliente = readLine()!
-vendedor.despacharEnsalada(ensalada: respuesta4DeCliente)
+print("\n")
 
-vendedor.pedirPrecio()
-var respuesta5DeCliente = readLine()!
-vendedor.cobrar(precio: Double(respuesta5DeCliente)!)
-
-print("\nCobrando...")
-
-vendedor.vender()
+var carroEncontrado = vendedorDeCarros.encontrarCarro(marca: respuestaDelCliente1, modelo: respuestaDelCliente2, color: respuestaDelCliente3)
+vendedorDeCarros.mostrarResumenDeCompra(carro: carroEncontrado)

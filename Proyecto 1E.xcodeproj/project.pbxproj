@@ -11,6 +11,11 @@
 		FB5348B125B5D53700B1003B /* Hamburguesas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348B025B5D53700B1003B /* Hamburguesas.swift */; };
 		FB5348E425B7366400B1003B /* VendedorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348E325B7366400B1003B /* VendedorTest.swift */; };
 		FB5348E725B736BB00B1003B /* Hamburguesas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348B025B5D53700B1003B /* Hamburguesas.swift */; };
+		FB5348F125B74C4F00B1003B /* VendedorDeCarros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348F025B74C4F00B1003B /* VendedorDeCarros.swift */; };
+		FB5348FB25B74FC000B1003B /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348FA25B74FC000B1003B /* Carro.swift */; };
+		FB53491325B89ED100B1003B /* VendedorDeCarros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348F025B74C4F00B1003B /* VendedorDeCarros.swift */; };
+		FB53491925B8A07500B1003B /* vendedorDeCarrosTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53491825B8A07500B1003B /* vendedorDeCarrosTest.swift */; };
+		FB53491C25B8AA6500B1003B /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348FA25B74FC000B1003B /* Carro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -32,6 +37,9 @@
 		FB53489225B1F07600B1003B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5348B025B5D53700B1003B /* Hamburguesas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamburguesas.swift; sourceTree = "<group>"; };
 		FB5348E325B7366400B1003B /* VendedorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorTest.swift; sourceTree = "<group>"; };
+		FB5348F025B74C4F00B1003B /* VendedorDeCarros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorDeCarros.swift; sourceTree = "<group>"; };
+		FB5348FA25B74FC000B1003B /* Carro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
+		FB53491825B8A07500B1003B /* vendedorDeCarrosTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vendedorDeCarrosTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +81,9 @@
 		FB53486125ADEFFC00B1003B /* Proyecto 1E */ = {
 			isa = PBXGroup;
 			children = (
+				FB5348EF25B74C2200B1003B /* VendedorDeCarros */,
+				FB5348EE25B74C1200B1003B /* Hamburguesas */,
 				FB53486225ADEFFC00B1003B /* main.swift */,
-				FB5348B025B5D53700B1003B /* Hamburguesas.swift */,
 			);
 			path = "Proyecto 1E";
 			sourceTree = "<group>";
@@ -82,10 +91,44 @@
 		FB53488F25B1F07600B1003B /* Proyecto 1ETests */ = {
 			isa = PBXGroup;
 			children = (
+				FB53490725B891C900B1003B /* VendedorDeCarros */,
+				FB53490625B891AE00B1003B /* Hamburguesa */,
 				FB53489225B1F07600B1003B /* Info.plist */,
-				FB5348E325B7366400B1003B /* VendedorTest.swift */,
 			);
 			path = "Proyecto 1ETests";
+			sourceTree = "<group>";
+		};
+		FB5348EE25B74C1200B1003B /* Hamburguesas */ = {
+			isa = PBXGroup;
+			children = (
+				FB5348B025B5D53700B1003B /* Hamburguesas.swift */,
+			);
+			path = Hamburguesas;
+			sourceTree = "<group>";
+		};
+		FB5348EF25B74C2200B1003B /* VendedorDeCarros */ = {
+			isa = PBXGroup;
+			children = (
+				FB5348F025B74C4F00B1003B /* VendedorDeCarros.swift */,
+				FB5348FA25B74FC000B1003B /* Carro.swift */,
+			);
+			path = VendedorDeCarros;
+			sourceTree = "<group>";
+		};
+		FB53490625B891AE00B1003B /* Hamburguesa */ = {
+			isa = PBXGroup;
+			children = (
+				FB5348E325B7366400B1003B /* VendedorTest.swift */,
+			);
+			path = Hamburguesa;
+			sourceTree = "<group>";
+		};
+		FB53490725B891C900B1003B /* VendedorDeCarros */ = {
+			isa = PBXGroup;
+			children = (
+				FB53491825B8A07500B1003B /* vendedorDeCarrosTest.swift */,
+			);
+			path = VendedorDeCarros;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +221,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5348B125B5D53700B1003B /* Hamburguesas.swift in Sources */,
+				FB5348FB25B74FC000B1003B /* Carro.swift in Sources */,
+				FB5348F125B74C4F00B1003B /* VendedorDeCarros.swift in Sources */,
 				FB53486325ADEFFC00B1003B /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,6 +233,9 @@
 			files = (
 				FB5348E725B736BB00B1003B /* Hamburguesas.swift in Sources */,
 				FB5348E425B7366400B1003B /* VendedorTest.swift in Sources */,
+				FB53491325B89ED100B1003B /* VendedorDeCarros.swift in Sources */,
+				FB53491925B8A07500B1003B /* vendedorDeCarrosTest.swift in Sources */,
+				FB53491C25B8AA6500B1003B /* Carro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
