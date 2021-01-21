@@ -16,6 +16,7 @@
 		FB53491325B89ED100B1003B /* VendedorDeCarros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348F025B74C4F00B1003B /* VendedorDeCarros.swift */; };
 		FB53491925B8A07500B1003B /* vendedorDeCarrosTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53491825B8A07500B1003B /* vendedorDeCarrosTest.swift */; };
 		FB53491C25B8AA6500B1003B /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348FA25B74FC000B1003B /* Carro.swift */; };
+		FB53492F25B9D88C00B1003B /* VendedorDeProducto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53492E25B9D88C00B1003B /* VendedorDeProducto.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,7 @@
 		FB5348F025B74C4F00B1003B /* VendedorDeCarros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorDeCarros.swift; sourceTree = "<group>"; };
 		FB5348FA25B74FC000B1003B /* Carro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
 		FB53491825B8A07500B1003B /* vendedorDeCarrosTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vendedorDeCarrosTest.swift; sourceTree = "<group>"; };
+		FB53492E25B9D88C00B1003B /* VendedorDeProducto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorDeProducto.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,9 +83,10 @@
 		FB53486125ADEFFC00B1003B /* Proyecto 1E */ = {
 			isa = PBXGroup;
 			children = (
+				FB53486225ADEFFC00B1003B /* main.swift */,
+				FB53492D25B9D65B00B1003B /* VendedorDeProducto */,
 				FB5348EF25B74C2200B1003B /* VendedorDeCarros */,
 				FB5348EE25B74C1200B1003B /* Hamburguesas */,
-				FB53486225ADEFFC00B1003B /* main.swift */,
 			);
 			path = "Proyecto 1E";
 			sourceTree = "<group>";
@@ -129,6 +132,14 @@
 				FB53491825B8A07500B1003B /* vendedorDeCarrosTest.swift */,
 			);
 			path = VendedorDeCarros;
+			sourceTree = "<group>";
+		};
+		FB53492D25B9D65B00B1003B /* VendedorDeProducto */ = {
+			isa = PBXGroup;
+			children = (
+				FB53492E25B9D88C00B1003B /* VendedorDeProducto.swift */,
+			);
+			path = VendedorDeProducto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +235,7 @@
 				FB5348FB25B74FC000B1003B /* Carro.swift in Sources */,
 				FB5348F125B74C4F00B1003B /* VendedorDeCarros.swift in Sources */,
 				FB53486325ADEFFC00B1003B /* main.swift in Sources */,
+				FB53492F25B9D88C00B1003B /* VendedorDeProducto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
