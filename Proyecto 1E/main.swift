@@ -61,4 +61,10 @@ var vendedorDeProductos = VendedorDeProducto(nombre: "Robert", dni: 75645224, ed
 
 vendedorDeProductos.preguntarPorNombreDelProducto()
 var primeraRespuestaDelCliente = readLine()!
+vendedorDeProductos.preguntarPorLaMarcaDelProducto()
+var segundaRespuestaDelCliente = readLine()!
+
+var productoEncontrado: Producto = vendedorDeProductos.buscarProducto(nombre: primeraRespuestaDelCliente, marca: segundaRespuestaDelCliente)
+
+vendedorDeProductos.mostrarResumenDeProducto(producto: productoEncontrado)
 
