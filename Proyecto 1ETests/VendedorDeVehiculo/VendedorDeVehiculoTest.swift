@@ -11,9 +11,11 @@ import XCTest
 class VendedorDeVehiculoTest: XCTestCase {
     
     var vendedorDeVehiculos : VendedorDeVehiculo!
+    
     override func setUpWithError() throws {
+        
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        vendedorDeVehiculos = VendedorDeVehiculo(nombre: "Brow", esMayor: true)
+        vendedorDeVehiculos = VendedorDeVehiculo(nombre: "Brow",esMayor: true)
     }
 
     override func tearDownWithError() throws {
@@ -21,40 +23,39 @@ class VendedorDeVehiculoTest: XCTestCase {
     }
 
     func testCompraDelPrimerVehiculo() throws {
-       
-        let vehiculoEncontrado1: Vehiculo = vendedorDeVehiculos.buscarVehiculo()
-        XCTAssertEqual(<#T##expression1: Equatable##Equatable#>, <#T##expression2: Equatable##Equatable#>)
-        XCTAssertEqual(<#T##expression1: Equatable##Equatable#>, <#T##expression2: Equatable##Equatable#>)
+        let vehiculoEncontrado1: Vehiculos = vendedorDeVehiculos.buscarVehiculo(tipo: "Camioneta", marca: "Toyota")
+        XCTAssertEqual("Camioneta", vehiculoEncontrado1.tipo)
+        XCTAssertEqual("Toyota", vehiculoEncontrado1.marca)
     }
     
-    func testCompraDelSegundoVehiculo() throws {
-        let vehiculoEncontrado2: Vehiculo = vendedorDeVehiculos.buscarVehiculo()
-        XCTAssertEqual(<#T##expression1: Equatable##Equatable#>, <#T##expression2: Equatable##Equatable#>)
-        XCTAssertEqual(<#T##expression1: Equatable##Equatable#>, <#T##expression2: Equatable##Equatable#>)
+    func testCompraDelSegundoVehiculo() throws {
+        let vehiculoEncontrado2: Vehiculos = vendedorDeVehiculos.buscarVehiculo(tipo: "Auto", marca: "Toyota")
+        XCTAssertEqual("Auto", vehiculoEncontrado2.tipo)
+        XCTAssertEqual("Toyota", vehiculoEncontrado2.marca)
     }
     
     func testCompraDelTercerVehiculo() throws {
-        let vehiculoEncontrado3: Vehiculo = vendedorDeVehiculos.buscarVehiculo()
-        XCTAssertEqual(<#T##expression1: Equatable##Equatable#>, <#T##expression2: Equatable##Equatable#>)
-        XCTAssertEqual(<#T##expression1: Equatable##Equatable#>, <#T##expression2: Equatable##Equatable#>)
+        let vehiculoEncontrado3: Vehiculos = vendedorDeVehiculos.buscarVehiculo(tipo: "Moto", marca: "Yamaha")
+        XCTAssertEqual("Moto", vehiculoEncontrado3.tipo)
+        XCTAssertEqual("Yamaha", vehiculoEncontrado3.marca)
     }
     
     func testCompraDelCuartoVehiculo() throws {
-        let vehiculoEncontrado4: Vehiculo = vendedorDeVehiculos.buscarVehiculo()
-        XCTAssertEqual(<#T##expression1: Equatable##Equatable#>, <#T##expression2: Equatable##Equatable#>)
-        XCTAssertEqual(<#T##expression1: Equatable##Equatable#>, <#T##expression2: Equatable##Equatable#>)
+        let vehiculoEncontrado4: Vehiculos = vendedorDeVehiculos.buscarVehiculo(tipo: "Vicicleta", marca: "RAP")
+        XCTAssertEqual("Vicicleta", vehiculoEncontrado4.tipo)
+        XCTAssertEqual("RAP", vehiculoEncontrado4.marca)
     }
     
     func testCompraDelQuintoVehiculo() throws {
-        let vehiculoEncontrado5: Vehiculo = vendedorDeVehiculos.buscarVehiculo()
-        XCTAssertEqual(<#T##expression1: Equatable##Equatable#>, <#T##expression2: Equatable##Equatable#>)
-        XCTAssertEqual(<#T##expression1: Equatable##Equatable#>, <#T##expression2: Equatable##Equatable#>)
+        let vehiculoEncontrado5: Vehiculos = vendedorDeVehiculos.buscarVehiculo(tipo: "Tractor", marca: "Volvo")
+        XCTAssertEqual("Tractor", vehiculoEncontrado5.tipo)
+        XCTAssertEqual("Volvo", vehiculoEncontrado5.marca)
     }
     
     func testCompraDelSextoVehiculo() throws {
-        let vehiculoEncontrado6: Vehiculo = vendedorDeVehiculos.buscarVehiculo()
-        XCTAssertEqual(<#T##expression1: Equatable##Equatable#>, <#T##expression2: Equatable##Equatable#>)
-        XCTAssertEqual(<#T##expression1: Equatable##Equatable#>, <#T##expression2: Equatable##Equatable#>)
+        let vehiculoEncontrado6: Vehiculos = vendedorDeVehiculos.buscarVehiculo(tipo: "Volquete", marca: "Volvo")
+        XCTAssertEqual("Volquete", vehiculoEncontrado6.tipo)
+        XCTAssertEqual("Volvo", vehiculoEncontrado6.marca)
     }
 
     func testPerformanceExample() throws {

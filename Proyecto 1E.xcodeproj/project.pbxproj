@@ -18,7 +18,7 @@
 		FB53492F25B9D88C00B1003B /* VendedorDeProducto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53492E25B9D88C00B1003B /* VendedorDeProducto.swift */; };
 		FB53493825BA1DA800B1003B /* VendedorDeProductosTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53493725BA1DA800B1003B /* VendedorDeProductosTest.swift */; };
 		FB53496C25BB2A7800B1003B /* VendedorDeVehiculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53496B25BB2A7800B1003B /* VendedorDeVehiculo.swift */; };
-		FB53497025BB2AFD00B1003B /* Vehiculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53496F25BB2AFD00B1003B /* Vehiculo.swift */; };
+		FB53497025BB2AFD00B1003B /* Vehiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53496F25BB2AFD00B1003B /* Vehiculos.swift */; };
 		FB53497625BB35C700B1003B /* AlmacenDeVehiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53497525BB35C700B1003B /* AlmacenDeVehiculos.swift */; };
 		FB53498725BB786500B1003B /* VendedorDeVehiculoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53498625BB786500B1003B /* VendedorDeVehiculoTest.swift */; };
 /* End PBXBuildFile section */
@@ -47,7 +47,7 @@
 		FB53492E25B9D88C00B1003B /* VendedorDeProducto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorDeProducto.swift; sourceTree = "<group>"; };
 		FB53493725BA1DA800B1003B /* VendedorDeProductosTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorDeProductosTest.swift; sourceTree = "<group>"; };
 		FB53496B25BB2A7800B1003B /* VendedorDeVehiculo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorDeVehiculo.swift; sourceTree = "<group>"; };
-		FB53496F25BB2AFD00B1003B /* Vehiculo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehiculo.swift; sourceTree = "<group>"; };
+		FB53496F25BB2AFD00B1003B /* Vehiculos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehiculos.swift; sourceTree = "<group>"; };
 		FB53497525BB35C700B1003B /* AlmacenDeVehiculos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmacenDeVehiculos.swift; sourceTree = "<group>"; };
 		FB53498625BB786500B1003B /* VendedorDeVehiculoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorDeVehiculoTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -157,7 +157,7 @@
 			children = (
 				FB53496B25BB2A7800B1003B /* VendedorDeVehiculo.swift */,
 				FB53497525BB35C700B1003B /* AlmacenDeVehiculos.swift */,
-				FB53496F25BB2AFD00B1003B /* Vehiculo.swift */,
+				FB53496F25BB2AFD00B1003B /* Vehiculos.swift */,
 			);
 			path = VendedorDeVehiculos;
 			sourceTree = "<group>";
@@ -263,7 +263,7 @@
 				FB53496C25BB2A7800B1003B /* VendedorDeVehiculo.swift in Sources */,
 				FB5348FB25B74FC000B1003B /* Carro.swift in Sources */,
 				FB53497625BB35C700B1003B /* AlmacenDeVehiculos.swift in Sources */,
-				FB53497025BB2AFD00B1003B /* Vehiculo.swift in Sources */,
+				FB53497025BB2AFD00B1003B /* Vehiculos.swift in Sources */,
 				FB5348F125B74C4F00B1003B /* VendedorDeCarros.swift in Sources */,
 				FB53486325ADEFFC00B1003B /* main.swift in Sources */,
 				FB53492F25B9D88C00B1003B /* VendedorDeProducto.swift in Sources */,

@@ -24,15 +24,15 @@ class VendedorDeVehiculo {
     func preguntarPorlaMarcaDelVehiculo() {
         print("¿Que marca de vehivulo desea:...")
     }
-    func buscarVehiculo(tipo:String, marca:String) -> Vehiculo {
-        let vehiculoEncontrado = almacenDeVehiculos.vehiculo.filter { (vehiculo) -> Bool in
+    func buscarVehiculo(tipo:String, marca:String) -> Vehiculos {
+        let vehiculoEncontrado = almacenDeVehiculos.vehiculo.first { (vehiculo) -> Bool in
             vehiculo.tipo == tipo && vehiculo.marca == marca
         }
         
-        return vehiculoEncontrado ?? Vehiculo(tipo: "", precio: 0, marca: "", modelo: "", estado: true)
+        return vehiculoEncontrado ?? Vehiculos(tipo: "", precio: 0, marca: "", modelo: "", estado: true)
     }
     
-    func mostarDatosDelVehiculo(vehiculo:Vehiculo){
+    func mostarDatosDelVehiculo(vehiculo:Vehiculos){
         print("El tipo es: \(vehiculo.tipo)")
         print("El precio es: \(vehiculo.precio)")
         print("La marca es: \(vehiculo.marca)")

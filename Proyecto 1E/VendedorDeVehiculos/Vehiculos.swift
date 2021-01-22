@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Vehiculo {
+class Vehiculos {
     
     var tipo: String
     var precio: Double
