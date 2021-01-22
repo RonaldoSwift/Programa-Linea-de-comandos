@@ -7,7 +7,7 @@
 
 import Foundation
 
-class VendedorDeCarros {
+/*class VendedorDeCarros {
     
     var carro1: Carro = Carro(precio: 37000, marca: "Toyota", modelo: "RAV4", color: "Plomo", estado: "Disponible")
     var carro2: Carro = Carro(precio: 45000, marca: "Toyota", modelo: "Prado", color: "Azul", estado: "Disponible")
@@ -59,3 +59,4 @@ class VendedorDeCarros {
         print("El estado del carro es: \(carro.estado)")
     }
 }
+*/
