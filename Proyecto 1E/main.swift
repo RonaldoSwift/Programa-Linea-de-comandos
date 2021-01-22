@@ -35,7 +35,7 @@
  */
 
 
-print("*****GRAN VENTA DE CARROS*****")
+/*print("*****GRAN VENTA DE CARROS*****")
 print("\nLlene los datos...")
 
 var vendedorDeCarros = VendedorDeCarros(nombre: "Juan")
@@ -51,3 +51,20 @@ print("\n")
 
 var carroEncontrado = vendedorDeCarros.encontrarCarro(marca: respuestaDelCliente1, modelo: respuestaDelCliente2, color: respuestaDelCliente3)
 vendedorDeCarros.mostrarResumenDeCompra(carro: carroEncontrado)
+*/
+
+
+print("*****VENTA DE PRODUCTOS*****")
+print("Llenando Datos:...")
+
+var vendedorDeProductos = VendedorDeProducto(nombre: "Robert", dni: 75645224, edad: 34)
+
+vendedorDeProductos.preguntarPorNombreDelProducto()
+var primeraRespuestaDelCliente = readLine()!
+vendedorDeProductos.preguntarPorLaMarcaDelProducto()
+var segundaRespuestaDelCliente = readLine()!
+
+var productoEncontrado: Producto = vendedorDeProductos.buscarProducto(nombre: primeraRespuestaDelCliente, marca: segundaRespuestaDelCliente)
+
+vendedorDeProductos.mostrarResumenDeProducto(producto: productoEncontrado)
+
