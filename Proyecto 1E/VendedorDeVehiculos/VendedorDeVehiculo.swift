@@ -7,12 +7,11 @@
 
 import Foundation
 
-
 class VendedorDeVehiculo {
     
     var nombre: String
     var esMayor: Bool
-    var almacenDeVehiculos: AlmecenDeVehiculos = AlmecenDeVehiculos(direccion: "MZDL76")
+    var almacenDeVehiculos: AlmacenDeVehiculos = AlmacenDeVehiculos()
     
     init(nombre: String,esMayor:Bool) {
         self.nombre = nombre
@@ -25,10 +24,12 @@ class VendedorDeVehiculo {
     func preguntarPorlaMarcaDelVehiculo() {
         print("¿Que marca de vehivulo desea:...")
     }
-    func buscarAlmacenDeVehiculo()->AlmecenDeVehiculos{
+    func buscarVehiculo(tipo:String, marca:String) -> Vehiculo {
+        let vehiculoEncontrado = almacenDeVehiculos.vehiculo.filter { (vehiculo) -> Bool in
+            vehiculo.tipo == tipo && vehiculo.marca == marca
+        }
         
-        
-        return
+        return vehiculoEncontrado ?? Vehiculo(tipo: "", precio: 0, marca: "", modelo: "", estado: true)
     }
     
     func mostarDatosDelVehiculo(vehiculo:Vehiculo){
@@ -36,9 +37,10 @@ class VendedorDeVehiculo {
         print("El precio es: \(vehiculo.precio)")
         print("La marca es: \(vehiculo.marca)")
         print("El modelo es: \(vehiculo.modelo)")
+        print("El estado es: \(vehiculo.estado)")
     }
     
     func venderCarro(){
-        
+        print("Carro comprado...")
     }
 }

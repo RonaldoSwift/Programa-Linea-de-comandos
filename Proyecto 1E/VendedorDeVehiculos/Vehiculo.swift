@@ -12,13 +12,16 @@ class Vehiculo {
     var tipo: String
     var precio: Double
     var marca: String
-    var modelo: Bool
+    var modelo: String
+    var estado: Bool
     
-    init(tipo:String, precio:Double, marca:String, modelo:Bool) {
+    init(tipo: String,precio: Double,marca: String,modelo: String,estado: Bool) {
+        
         self.tipo = tipo
         self.precio = precio
         self.marca = marca
         self.modelo = modelo
+        self.estado = estado
     }
     
     func acelerar() {

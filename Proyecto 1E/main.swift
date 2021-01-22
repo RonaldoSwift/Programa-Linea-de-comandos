@@ -81,5 +81,8 @@ var respuestaDelCliente1 = readLine()!
 vendedorDeVehiculos.preguntarPorlaMarcaDelVehiculo()
 var respuestaDelCliente2 = readLine()!
 
-var vehiculoEncontrado: AlmecenDeVehiculos = vendedorDeVehiculos.buscarAlmacenDeVehiculo()
+var vehiculoEncontrado: Vehiculo = vendedorDeVehiculos.buscarVehiculo(tipo: respuestaDelCliente1, marca: respuestaDelCliente2)
 
+vendedorDeVehiculos.mostarDatosDelVehiculo(vehiculo: vehiculoEncontrado)
+
+vendedorDeVehiculos.venderCarro()
