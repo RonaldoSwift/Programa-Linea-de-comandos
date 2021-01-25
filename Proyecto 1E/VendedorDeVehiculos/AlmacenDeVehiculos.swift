@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct AlmacenDeVehiculos {
+/*struct AlmacenDeVehiculos {
     
     var direccion: String = ""
     var vehiculo: Array<Vehiculos> = Array(arrayLiteral:
@@ -18,3 +18,4 @@ struct AlmacenDeVehiculos {
                                           Vehiculos.init(tipo: "Tractor", precio: 89.000, marca: "Volvo", modelo: "Toh76", estado: true),
                                           Vehiculos.init(tipo: "Volquete", precio: 90.000, marca: "Volvo", modelo: "Carga", estado: true))
 }
+*/

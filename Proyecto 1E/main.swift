@@ -97,7 +97,6 @@ var cheff = Cheff(nombre: "Jack", dni: 78913456)
 cheff.preguntarPorElPlato()
 var respuestaDelCliente1 = readLine()!
 
-var comidaEncontrada: Cheff = cheff.buscarComida(nombre: respuestaDelCliente1)
+var comidaEncontrada: Comida = cheff.buscarComida(nombre: respuestaDelCliente1)
 
 cheff.mostrarResumenDeCompra(comida: comidaEncontrada)
-

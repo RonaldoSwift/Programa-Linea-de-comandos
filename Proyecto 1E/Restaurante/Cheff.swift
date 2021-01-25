@@ -35,7 +35,7 @@ class Cheff {
     }
     
     func buscarComida(nombre: String) -> Comida {
-        let comidaEncontrada = Cheff.first { (comida) -> Bool in
+        let comidaEncontrada = comidas.first { (comida) -> Bool in
             comida.nombre == nombre
         }
         return comidaEncontrada ?? Comida(nombre: "", precio: 0, estado: true)
