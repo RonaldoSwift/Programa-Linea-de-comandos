@@ -99,4 +99,5 @@ var respuestaDelCliente1 = readLine()!
 
 var comidaEncontrada: Cheff = cheff.buscarComida(nombre: respuestaDelCliente1)
 
+cheff.mostrarResumenDeCompra(comida: comidaEncontrada)
 

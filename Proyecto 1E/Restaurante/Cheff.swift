@@ -17,13 +17,13 @@ class Cheff {
     
     var nombre: String
     var dni: Int
-    var comida: Array<Comida> = Array(arrayLiteral:
-                                      Comida.init(nombre: "LomoSaltado", precio: 23.90, estado: true),
-                                      Comida.init(nombre: "ArrozConPollo", precio: 21.99, estado: true),
-                                      Comida.init(nombre: "Ceviche", precio: 25.89, estado: true),
-                                      Comida.init(nombre: "Seco", precio: 23.90, estado: true),
-                                      Comida.init(nombre: "Tallarines", precio: 20, estado: true),
-                                      Comida.init(nombre: "Bisteck", precio: 26.99, estado: true))
+    var comidas: Array<Comida> = Array(arrayLiteral:
+                                        Comida.init(nombre: "LomoSaltado", precio: 23.90, estado: true),
+                                       Comida.init(nombre: "ArrozConPollo", precio: 21.99, estado: true),
+                                       Comida.init(nombre: "Ceviche", precio: 25.89, estado: true),
+                                       Comida.init(nombre: "Seco", precio: 23.90, estado: true),
+                                       Comida.init(nombre: "Tallarines", precio: 20, estado: true),
+                                       Comida.init(nombre: "Bisteck", precio: 26.99, estado: true))
     
     init(nombre: String,dni: Int) {
         self.nombre = nombre
@@ -37,8 +37,8 @@ class Cheff {
     func buscarComida(nombre: String) -> Comida {
         let comidaEncontrada = Cheff.first { (comida) -> Bool in
             comida.nombre == nombre
-            
-            return comidaEncontrada ?? comida
+        }
+        return comidaEncontrada ?? Comida(nombre: "", precio: 0, estado: true)
     }
     
     func mostrarResumenDeCompra(comida: Comida) {
@@ -46,5 +46,4 @@ class Cheff {
         print("Precio: \(comida.precio)")
         print("Estado: \(comida.estado)")
     }
-}
 }
