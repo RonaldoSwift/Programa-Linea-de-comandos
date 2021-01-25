@@ -54,7 +54,7 @@ vendedorDeCarros.mostrarResumenDeCompra(carro: carroEncontrado)
 */
 
 
-print("*****VENTA DE PRODUCTOS*****")
+/*print("*****VENTA DE PRODUCTOS*****")
 print("Llenando Datos:...")
 
 var vendedorDeProductos = VendedorDeProducto(nombre: "Robert", dni: 75645224, edad: 34)
@@ -67,4 +67,22 @@ var segundaRespuestaDelCliente = readLine()!
 var productoEncontrado: Producto = vendedorDeProductos.buscarProducto(nombre: primeraRespuestaDelCliente, marca: segundaRespuestaDelCliente)
 
 vendedorDeProductos.mostrarResumenDeProducto(producto: productoEncontrado)
+ 
+ *****************************
+*/
 
+print("*****VENTA DE VEHICULOS*****")
+print("Llenando Datos...")
+
+var vendedorDeVehiculos = VendedorDeVehiculo(nombre: "Brow", esMayor: true)
+
+vendedorDeVehiculos.preguntarPorElTipoDelVehiculo()
+var respuestaDelCliente1 = readLine()!
+vendedorDeVehiculos.preguntarPorlaMarcaDelVehiculo()
+var respuestaDelCliente2 = readLine()!
+
+var vehiculoEncontrado: Vehiculos = vendedorDeVehiculos.buscarVehiculo(tipo: respuestaDelCliente1, marca: respuestaDelCliente2)
+
+vendedorDeVehiculos.mostarDatosDelVehiculo(vehiculo: vehiculoEncontrado)
+
+vendedorDeVehiculos.venderCarro()
