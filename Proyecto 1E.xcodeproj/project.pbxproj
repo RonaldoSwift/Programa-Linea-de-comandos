@@ -21,6 +21,8 @@
 		FB53497025BB2AFD00B1003B /* Vehiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53496F25BB2AFD00B1003B /* Vehiculos.swift */; };
 		FB53497625BB35C700B1003B /* AlmacenDeVehiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53497525BB35C700B1003B /* AlmacenDeVehiculos.swift */; };
 		FB53498725BB786500B1003B /* VendedorDeVehiculoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53498625BB786500B1003B /* VendedorDeVehiculoTest.swift */; };
+		FB5D591925C0824F0027CB4F /* AutorDeLibros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D591825C0824F0027CB4F /* AutorDeLibros.swift */; };
+		FB5D592025C091480027CB4F /* AutorDeLibrosTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D591F25C091480027CB4F /* AutorDeLibrosTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -50,6 +52,8 @@
 		FB53496F25BB2AFD00B1003B /* Vehiculos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehiculos.swift; sourceTree = "<group>"; };
 		FB53497525BB35C700B1003B /* AlmacenDeVehiculos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmacenDeVehiculos.swift; sourceTree = "<group>"; };
 		FB53498625BB786500B1003B /* VendedorDeVehiculoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorDeVehiculoTest.swift; sourceTree = "<group>"; };
+		FB5D591825C0824F0027CB4F /* AutorDeLibros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorDeLibros.swift; sourceTree = "<group>"; };
+		FB5D591F25C091480027CB4F /* AutorDeLibrosTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorDeLibrosTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,8 +95,9 @@
 		FB53486125ADEFFC00B1003B /* Proyecto 1E */ = {
 			isa = PBXGroup;
 			children = (
-				FB53495825BB26A000B1003B /* VendedorDeVehiculos */,
 				FB53486225ADEFFC00B1003B /* main.swift */,
+				FB5D591725C081CF0027CB4F /* EjerciciosDeJavaEnSwift */,
+				FB53495825BB26A000B1003B /* VendedorDeVehiculos */,
 				FB53492D25B9D65B00B1003B /* VendedorDeProducto */,
 				FB5348EF25B74C2200B1003B /* VendedorDeCarros */,
 				FB5348EE25B74C1200B1003B /* Hamburguesas */,
@@ -103,6 +108,7 @@
 		FB53488F25B1F07600B1003B /* Proyecto 1ETests */ = {
 			isa = PBXGroup;
 			children = (
+				FB5D591E25C0911D0027CB4F /* EjerciciosDeJavaEnSwiftTest */,
 				FB53498325BB783700B1003B /* VendedorDeVehiculo */,
 				FB53493625BA1D7600B1003B /* VendedorDeProductos */,
 				FB53490625B891AE00B1003B /* Hamburguesa */,
@@ -168,6 +174,22 @@
 				FB53498625BB786500B1003B /* VendedorDeVehiculoTest.swift */,
 			);
 			path = VendedorDeVehiculo;
+			sourceTree = "<group>";
+		};
+		FB5D591725C081CF0027CB4F /* EjerciciosDeJavaEnSwift */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D591825C0824F0027CB4F /* AutorDeLibros.swift */,
+			);
+			path = EjerciciosDeJavaEnSwift;
+			sourceTree = "<group>";
+		};
+		FB5D591E25C0911D0027CB4F /* EjerciciosDeJavaEnSwiftTest */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D591F25C091480027CB4F /* AutorDeLibrosTest.swift */,
+			);
+			path = EjerciciosDeJavaEnSwiftTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +281,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5D591925C0824F0027CB4F /* AutorDeLibros.swift in Sources */,
 				FB5348B125B5D53700B1003B /* Hamburguesas.swift in Sources */,
 				FB53496C25BB2A7800B1003B /* VendedorDeVehiculo.swift in Sources */,
 				FB5348FB25B74FC000B1003B /* Carro.swift in Sources */,
@@ -275,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB53498725BB786500B1003B /* VendedorDeVehiculoTest.swift in Sources */,
+				FB5D592025C091480027CB4F /* AutorDeLibrosTest.swift in Sources */,
 				FB5348E725B736BB00B1003B /* Hamburguesas.swift in Sources */,
 				FB53493825BA1DA800B1003B /* VendedorDeProductosTest.swift in Sources */,
 				FB5348E425B7366400B1003B /* VendedorTest.swift in Sources */,
