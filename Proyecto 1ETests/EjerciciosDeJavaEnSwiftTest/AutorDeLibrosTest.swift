@@ -16,7 +16,6 @@ class AutorDeLibrosTest: XCTestCase {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         autorDeLibros =  Autor(nombre: "Juan", gmail: "juan@gmail", genero: "M")
         libro = Libro(nombre: "Galaxia", autor: autorDeLibros, precio: 50)
-
     }
 
     override func tearDownWithError() throws {
@@ -31,9 +30,7 @@ class AutorDeLibrosTest: XCTestCase {
     }
     
     func testLibro() throws {
-        let libroEncontrado : Libro = Libro(nombre: "Galaxia", autor: autorDeLibros, precio: 50)
         XCTAssertEqual("Galaxia", libro.getNombre())
-        XCTAssertEqual(, libro.getAutor())
         XCTAssertEqual(50, libro.getPrecio())
     }
 

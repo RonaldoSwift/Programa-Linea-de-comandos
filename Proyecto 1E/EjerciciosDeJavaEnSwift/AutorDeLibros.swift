@@ -39,10 +39,10 @@ public class Autor{
 
 class Libro {
     
-    var nombre: String
-    var autor: Autor
-    var precio: Double
-    var qtyInkStock: Int
+    private var nombre: String
+    private var autor: Autor
+    private var precio: Double
+    private var qtyInkStock: Int
     
     init(nombre:String,autor: Autor,precio:Double) {
         self.nombre = nombre
