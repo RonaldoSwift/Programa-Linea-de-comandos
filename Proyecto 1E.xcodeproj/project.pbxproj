@@ -23,7 +23,6 @@
 		FB53498725BB786500B1003B /* VendedorDeVehiculoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53498625BB786500B1003B /* VendedorDeVehiculoTest.swift */; };
 		FB53499225BF1B8900B1003B /* Cheff.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53499125BF1B8900B1003B /* Cheff.swift */; };
 		FB5D58E825BF45A70027CB4F /* Circulo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D58E725BF45A70027CB4F /* Circulo1.swift */; };
-		FB5D58F025BF78270027CB4F /* AutorDeLibros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D58EF25BF78270027CB4F /* AutorDeLibros.swift */; };
 		FB5D58FF25C066DD0027CB4F /* CirculoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D58FE25C066DD0027CB4F /* CirculoTest.swift */; };
 /* End PBXBuildFile section */
 
@@ -56,7 +55,6 @@
 		FB53498625BB786500B1003B /* VendedorDeVehiculoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorDeVehiculoTest.swift; sourceTree = "<group>"; };
 		FB53499125BF1B8900B1003B /* Cheff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheff.swift; sourceTree = "<group>"; };
 		FB5D58E725BF45A70027CB4F /* Circulo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circulo1.swift; sourceTree = "<group>"; };
-		FB5D58EF25BF78270027CB4F /* AutorDeLibros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorDeLibros.swift; sourceTree = "<group>"; };
 		FB5D58FE25C066DD0027CB4F /* CirculoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirculoTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				FB5D58E725BF45A70027CB4F /* Circulo1.swift */,
-				FB5D58EF25BF78270027CB4F /* AutorDeLibros.swift */,
 			);
 			path = EjerciciosDeJava;
 			sourceTree = "<group>";
@@ -297,7 +294,6 @@
 			files = (
 				FB5348B125B5D53700B1003B /* Hamburguesas.swift in Sources */,
 				FB53496C25BB2A7800B1003B /* VendedorDeVehiculo.swift in Sources */,
-				FB5D58F025BF78270027CB4F /* AutorDeLibros.swift in Sources */,
 				FB5348FB25B74FC000B1003B /* Carro.swift in Sources */,
 				FB53497625BB35C700B1003B /* AlmacenDeVehiculos.swift in Sources */,
 				FB53497025BB2AFD00B1003B /* Vehiculos.swift in Sources */,

@@ -26,7 +26,7 @@ class Circulo{
       print("El radio es: \(radio)")
     }
     
-    func getArea(radio:Double) -> Double {
+    func getArea() -> Double {
         
         let area = (3.14) * (radio * radio)
         return area
