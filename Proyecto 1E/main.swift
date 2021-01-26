@@ -88,4 +88,4 @@ vendedorDeVehiculos.mostarDatosDelVehiculo(vehiculo: vehiculoEncontrado)
 vendedorDeVehiculos.venderCarro()*/
 
 var autor = Autor(nombre: "Juan", gmail: "juan@gmail", genero: "M")
-autor.toString(autor: autor)
+

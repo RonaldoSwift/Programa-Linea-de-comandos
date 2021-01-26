@@ -23,6 +23,7 @@
 		FB53498725BB786500B1003B /* VendedorDeVehiculoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53498625BB786500B1003B /* VendedorDeVehiculoTest.swift */; };
 		FB5D591925C0824F0027CB4F /* AutorDeLibros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D591825C0824F0027CB4F /* AutorDeLibros.swift */; };
 		FB5D592025C091480027CB4F /* AutorDeLibrosTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D591F25C091480027CB4F /* AutorDeLibrosTest.swift */; };
+		FB5D592525C09A830027CB4F /* AutorDeLibros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D591825C0824F0027CB4F /* AutorDeLibros.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -302,6 +303,7 @@
 				FB5348E725B736BB00B1003B /* Hamburguesas.swift in Sources */,
 				FB53493825BA1DA800B1003B /* VendedorDeProductosTest.swift in Sources */,
 				FB5348E425B7366400B1003B /* VendedorTest.swift in Sources */,
+				FB5D592525C09A830027CB4F /* AutorDeLibros.swift in Sources */,
 				FB53491325B89ED100B1003B /* VendedorDeCarros.swift in Sources */,
 				FB53491C25B8AA6500B1003B /* Carro.swift in Sources */,
 			);

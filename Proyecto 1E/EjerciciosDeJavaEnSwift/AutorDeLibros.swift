@@ -19,13 +19,22 @@ public class Autor{
         self.genero = genero
     }
     
-    func toString(autor:Autor){
-        print("El nombre es: \(nombre)")
-        print("El gmail es: \(gmail)")
-        print("El genero es: \(genero)")
-        
+    func getNombre() -> String{
+        return nombre
+    }
+    func getGmail() -> String{
+        return gmail
+    }
+    func getGenero() -> String{
+        return genero
+    }
+    func setEmail(email:String){
+        self.gmail = email
     }
     
+    func toString(autor:Autor)-> String{
+        return "Autor name \(genero) at email"
+    }
 }
 
 
