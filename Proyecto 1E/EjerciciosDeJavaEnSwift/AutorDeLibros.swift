@@ -19,16 +19,16 @@ public class Autor{
         self.genero = genero
     }
     
-    func getNombre() -> String{
+    func getNombre1() -> String{
         return nombre
     }
-    func getGmail() -> String{
+    func getGmail1() -> String{
         return gmail
     }
-    func getGenero() -> String{
+    func getGenero1() -> String{
         return genero
     }
-    func setEmail(email:String){
+    func setEmail1(email:String){
         self.gmail = email
     }
     
@@ -37,5 +37,48 @@ public class Autor{
     }
 }
 
-
+class Libro {
+    
+    var nombre: String
+    var autor: String
+    var precio: Double
+    var qtyInkStock: Int
+    
+    init(nombre:String, autor:String, precio:Double) {
+        self.nombre = nombre
+        self.autor = autor
+        self.precio = precio
+    }
+    
+    init(nombre:String, autor:String, precio:Double,qtyInkStock:Int) {
+        self.nombre = nombre
+        self.autor = autor
+        self.precio = precio
+        self.qtyInkStock = qtyInkStock
+    }
+    
+    func getNombre2() ->String {
+        return nombre
+    }
+    
+    func getAutor() -> String {
+        return autor
+    }
+    
+    func getPrecio() -> Double {
+        return precio
+    }
+    
+    func setPrice(precio: Double){
+        self.precio = precio
+    }
+    
+    func getqtyInkStock() -> Int {
+        return qtyInkStock
+    }
+    
+    func setqtyInkStock(qtyInkStock:Int) {
+        self.qtyInkStock = qtyInkStock
+    }
+}
 
