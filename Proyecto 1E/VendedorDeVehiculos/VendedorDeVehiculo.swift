@@ -7,7 +7,7 @@
 
 import Foundation
 
-/*class VendedorDeVehiculo {
+class VendedorDeVehiculo {
     
     var nombre: String
     var esMayor: Bool
@@ -44,4 +44,4 @@ import Foundation
         print("Carro comprado...")
     }
 }
-*/
+

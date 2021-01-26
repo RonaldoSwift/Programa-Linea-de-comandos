@@ -17,13 +17,17 @@
 		FB53491C25B8AA6500B1003B /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348FA25B74FC000B1003B /* Carro.swift */; };
 		FB53492F25B9D88C00B1003B /* VendedorDeProducto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53492E25B9D88C00B1003B /* VendedorDeProducto.swift */; };
 		FB53493825BA1DA800B1003B /* VendedorDeProductosTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53493725BA1DA800B1003B /* VendedorDeProductosTest.swift */; };
-		FB53496C25BB2A7800B1003B /* VendedorDeVehiculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53496B25BB2A7800B1003B /* VendedorDeVehiculo.swift */; };
 		FB53497025BB2AFD00B1003B /* Vehiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53496F25BB2AFD00B1003B /* Vehiculos.swift */; };
 		FB53497625BB35C700B1003B /* AlmacenDeVehiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53497525BB35C700B1003B /* AlmacenDeVehiculos.swift */; };
 		FB53498725BB786500B1003B /* VendedorDeVehiculoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53498625BB786500B1003B /* VendedorDeVehiculoTest.swift */; };
 		FB53499225BF1B8900B1003B /* Cheff.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53499125BF1B8900B1003B /* Cheff.swift */; };
 		FB5D58E825BF45A70027CB4F /* Circulo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D58E725BF45A70027CB4F /* Circulo1.swift */; };
 		FB5D58FF25C066DD0027CB4F /* CirculoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D58FE25C066DD0027CB4F /* CirculoTest.swift */; };
+		FB5D590425C07E1A0027CB4F /* VendedorDeVehiculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53496B25BB2A7800B1003B /* VendedorDeVehiculo.swift */; };
+		FB5D590925C07F620027CB4F /* AlmacenDeVehiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53497525BB35C700B1003B /* AlmacenDeVehiculos.swift */; };
+		FB5D590C25C07F650027CB4F /* Vehiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53496F25BB2AFD00B1003B /* Vehiculos.swift */; };
+		FB5D590F25C07F8A0027CB4F /* VendedorDeVehiculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53496B25BB2A7800B1003B /* VendedorDeVehiculo.swift */; };
+		FB5D591225C07F910027CB4F /* Circulo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D58E725BF45A70027CB4F /* Circulo1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -293,8 +297,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5348B125B5D53700B1003B /* Hamburguesas.swift in Sources */,
-				FB53496C25BB2A7800B1003B /* VendedorDeVehiculo.swift in Sources */,
 				FB5348FB25B74FC000B1003B /* Carro.swift in Sources */,
+				FB5D590F25C07F8A0027CB4F /* VendedorDeVehiculo.swift in Sources */,
 				FB53497625BB35C700B1003B /* AlmacenDeVehiculos.swift in Sources */,
 				FB53497025BB2AFD00B1003B /* Vehiculos.swift in Sources */,
 				FB5348F125B74C4F00B1003B /* VendedorDeCarros.swift in Sources */,
@@ -311,8 +315,12 @@
 			files = (
 				FB5D58FF25C066DD0027CB4F /* CirculoTest.swift in Sources */,
 				FB53498725BB786500B1003B /* VendedorDeVehiculoTest.swift in Sources */,
+				FB5D591225C07F910027CB4F /* Circulo1.swift in Sources */,
+				FB5D590425C07E1A0027CB4F /* VendedorDeVehiculo.swift in Sources */,
 				FB5348E725B736BB00B1003B /* Hamburguesas.swift in Sources */,
+				FB5D590925C07F620027CB4F /* AlmacenDeVehiculos.swift in Sources */,
 				FB53493825BA1DA800B1003B /* VendedorDeProductosTest.swift in Sources */,
+				FB5D590C25C07F650027CB4F /* Vehiculos.swift in Sources */,
 				FB5348E425B7366400B1003B /* VendedorTest.swift in Sources */,
 				FB53491325B89ED100B1003B /* VendedorDeCarros.swift in Sources */,
 				FB53491C25B8AA6500B1003B /* Carro.swift in Sources */,

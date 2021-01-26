@@ -30,7 +30,7 @@ class CirculoTest: XCTestCase {
     
     func testAreaDeCirculo2() throws {
         let area = circulo2.getArea()
-        XCTAssertEqual(5.0, area)
+        XCTAssertEqual(78.5, area)
     }
 
     func testPerformanceExample() throws {

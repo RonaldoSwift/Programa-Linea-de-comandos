@@ -7,7 +7,7 @@
 
 import Foundation
 
-/*class Vehiculos {
+class Vehiculos {
     
     var tipo: String
     var precio: Double
@@ -31,4 +31,4 @@ import Foundation
     func frenar() {
         print("Frenando....")
     }
-}*/
+}
