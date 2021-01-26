@@ -18,6 +18,7 @@ public class Autor{
         self.gmail = gmail
         self.genero = genero
     }
+    
     func toString(autor:Autor){
         print("El nombre es: \(nombre)")
         print("El gmail es: \(gmail)")

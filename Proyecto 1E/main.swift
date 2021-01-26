@@ -71,7 +71,7 @@ vendedorDeProductos.mostrarResumenDeProducto(producto: productoEncontrado)
  *****************************
 */
 
-print("*****VENTA DE VEHICULOS*****")
+/*print("*****VENTA DE VEHICULOS*****")
 print("Llenando Datos...")
 
 var vendedorDeVehiculos = VendedorDeVehiculo(nombre: "Brow", esMayor: true)
@@ -85,4 +85,7 @@ var vehiculoEncontrado: Vehiculos = vendedorDeVehiculos.buscarVehiculo(tipo: res
 
 vendedorDeVehiculos.mostarDatosDelVehiculo(vehiculo: vehiculoEncontrado)
 
-vendedorDeVehiculos.venderCarro()
+vendedorDeVehiculos.venderCarro()*/
+
+var autor = Autor(nombre: "Juan", gmail: "juan@gmail", genero: "M")
+autor.toString(autor: autor)

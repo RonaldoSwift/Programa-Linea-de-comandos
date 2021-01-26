@@ -9,11 +9,11 @@ import XCTest
 @testable import Proyecto_1E
 
 class AutorDeLibrosTest: XCTestCase {
-    var autosDeLibros: Autor!
+    var autorDeLibros: Autor!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        var autosDeLibros =  Autor(nombre: <#T##String#>, gmail: <#T##String#>, genero: <#T##String#>)
+        var autorDeLibros =  Autor(nombre: "Juan", gmail: "juan@gmail", genero: "M")
 
     }
 
