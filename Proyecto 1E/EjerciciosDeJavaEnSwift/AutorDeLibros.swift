@@ -19,16 +19,16 @@ public class Autor{
         self.genero = genero
     }
     
-    func getNombre1() -> String{
+    func getNombre() -> String{
         return nombre
     }
-    func getGmail1() -> String{
+    func getGmail() -> String{
         return gmail
     }
-    func getGenero1() -> String{
+    func getGenero() -> String{
         return genero
     }
-    func setEmail1(email:String){
+    func setEmail(email:String){
         self.gmail = email
     }
     
@@ -58,7 +58,7 @@ class Libro {
         self.qtyInkStock = qtyInkStock
     }
     
-    func getNombre2() ->String {
+    func getNombre() ->String {
         return nombre
     }
     

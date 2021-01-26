@@ -88,4 +88,4 @@ vendedorDeVehiculos.mostarDatosDelVehiculo(vehiculo: vehiculoEncontrado)
 vendedorDeVehiculos.venderCarro()*/
 
 var autor = Autor(nombre: "Juan", gmail: "juan@gmail", genero: "M")
-var libro = Libro(nombre: "Juan", autor: autor, precio: 50)
+var libro = Libro(nombre: "Galaxia", autor: autor, precio: 50)

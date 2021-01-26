@@ -10,10 +10,12 @@ import XCTest
 
 class AutorDeLibrosTest: XCTestCase {
     var autorDeLibros: Autor!
+    var libro: Libro!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         autorDeLibros =  Autor(nombre: "Juan", gmail: "juan@gmail", genero: "M")
+        libro = Libro(nombre: "Galaxia", autor: autorDeLibros, precio: 50)
 
     }
 
@@ -22,10 +24,17 @@ class AutorDeLibrosTest: XCTestCase {
     }
 
     func testAutor() throws {
-        let autorDeLibros1 : Autor = Autor(nombre: "Juan", gmail: "juan@gmail", genero: "M")
-        XCTAssertEqual("Juan", autorDeLibros1.getNombre())
-        XCTAssertEqual("juan@gmail", autorDeLibros1.getGmail() )
-        XCTAssertEqual("M",autorDeLibros1.getGenero() )
+        let autorDeLibros : Autor = Autor(nombre: "Juan", gmail: "juan@gmail", genero: "M")
+        XCTAssertEqual("Juan", autorDeLibros.getNombre())
+        XCTAssertEqual("juan@gmail", autorDeLibros.getGmail() )
+        XCTAssertEqual("M",autorDeLibros.getGenero() )
+    }
+    
+    func testLibro() throws {
+        let libroEncontrado : Libro = Libro(nombre: "Galaxia", autor: autorDeLibros, precio: 50)
+        XCTAssertEqual("Galaxia", libro.getNombre())
+        XCTAssertEqual(, libro.getAutor())
+        XCTAssertEqual(50, libro.getPrecio())
     }
 
     func testPerformanceExample() throws {
