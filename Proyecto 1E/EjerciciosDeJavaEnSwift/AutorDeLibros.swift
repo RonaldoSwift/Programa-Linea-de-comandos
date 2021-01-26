@@ -40,17 +40,18 @@ public class Autor{
 class Libro {
     
     var nombre: String
-    var autor: String
+    var autor: Autor
     var precio: Double
     var qtyInkStock: Int
     
-    init(nombre:String, autor:String, precio:Double) {
+    init(nombre:String,autor: Autor,precio:Double) {
         self.nombre = nombre
-        self.autor = autor
         self.precio = precio
+        self.autor = autor
+        self.qtyInkStock = 0
     }
     
-    init(nombre:String, autor:String, precio:Double,qtyInkStock:Int) {
+    init(nombre:String, autor:Autor, precio:Double,qtyInkStock:Int) {
         self.nombre = nombre
         self.autor = autor
         self.precio = precio
@@ -61,7 +62,7 @@ class Libro {
         return nombre
     }
     
-    func getAutor() -> String {
+    func getAutor() -> Autor {
         return autor
     }
     
