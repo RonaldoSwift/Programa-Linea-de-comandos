@@ -89,7 +89,7 @@ vendedorDeVehiculos.venderCarro()
 */
 
 
-print("*****RESTAURANTE*****")
+/*print("*****RESTAURANTE*****")
 print("Lleme los datos...")
 
 var cheff = Cheff(nombre: "Jack", dni: 78913456)
@@ -100,3 +100,12 @@ var respuestaDelCliente1 = readLine()!
 var comidaEncontrada: Comida = cheff.buscarComida(nombre: respuestaDelCliente1)
 
 cheff.mostrarResumenDeCompra(comida: comidaEncontrada)
+
+ 
+ ***********************************************
+ */
+
+var circulo = Circulo()
+circulo.getRadiu()
+print("El area es: \(circulo.getArea())")
+
