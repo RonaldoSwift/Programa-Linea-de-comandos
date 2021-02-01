@@ -28,11 +28,31 @@ class LibroTest: XCTestCase {
         XCTAssertEqual("Galaxya", libro.getName())
         XCTAssertEqual(50.99, libro.getPrice())
     }
+    
+    func testNombre() throws {
+        let nombre = libro.getName()
+        XCTAssertEqual("Galaxya", nombre)
+    }
+    
+    func testPrice() throws {
+        let precio = libro.getPrice()
+        XCTAssertEqual(50.99, precio)
+    }
+    
+    func testQtyInStock() throws {
+        let qtyInStock = libro.getQtyInStock()
+        XCTAssertEqual(0, qtyInStock)
+    }
+    
+    func testToString() throws {
+        let toString = libro.toString()
+        XCTAssertEqual("Galaxya by Alex, (M) at Alex@gmail ", toString)
+    }
+    
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
         self.measure {
             // Put the code you want to measure the time of here.
         }
     }
-
 }

@@ -28,6 +28,26 @@ class AutorTest: XCTestCase {
         XCTAssertEqual("Alex@gmail", autor.getEmail())
         XCTAssertEqual("M", autor.getGender())
     }
+    
+    func testNombre() throws {
+        let nombre = autor.getName()
+        XCTAssertEqual("Alex", nombre)
+    }
+    
+    func testEmail() throws {
+        let email = autor.getEmail()
+        XCTAssertEqual("Alex@gmail", email)
+    }
+    
+    func testGender() throws {
+        let genero = autor.getGender()
+        XCTAssertEqual("M", genero)
+    }
+    
+    func testToString() throws {
+        let toString = autor.toString()
+        XCTAssertEqual("Alex, (M) at Alex@gmail ", toString)
+    }
 
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
