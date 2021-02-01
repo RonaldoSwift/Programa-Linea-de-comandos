@@ -26,7 +26,6 @@ class LibroTest: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         XCTAssertEqual("Galaxya", libro.getName())
-        XCTAssertEqual(autor, libro.getAuthor())
         XCTAssertEqual(50.99, libro.getPrice())
     }
     func testPerformanceExample() throws {
