@@ -29,7 +29,7 @@ class Ejercicio1CirculoTest: XCTestCase {
     }
     func testRadioDeCirculo1() throws {
         let radio = circulo1.getRadiu()
-        XCTAssertEqual(3.14, radio)
+        XCTAssertEqual(1.0, radio)
     }
     
     func testAreaDeCirculo2() throws {
