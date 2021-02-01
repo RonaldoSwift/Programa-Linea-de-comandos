@@ -8,26 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		FB53486325ADEFFC00B1003B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53486225ADEFFC00B1003B /* main.swift */; };
-		FB5348B125B5D53700B1003B /* Hamburguesas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348B025B5D53700B1003B /* Hamburguesas.swift */; };
-		FB5348E425B7366400B1003B /* VendedorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348E325B7366400B1003B /* VendedorTest.swift */; };
-		FB5348E725B736BB00B1003B /* Hamburguesas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348B025B5D53700B1003B /* Hamburguesas.swift */; };
-		FB5348F125B74C4F00B1003B /* VendedorDeCarros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348F025B74C4F00B1003B /* VendedorDeCarros.swift */; };
-		FB5348FB25B74FC000B1003B /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348FA25B74FC000B1003B /* Carro.swift */; };
-		FB53491325B89ED100B1003B /* VendedorDeCarros.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348F025B74C4F00B1003B /* VendedorDeCarros.swift */; };
-		FB53491C25B8AA6500B1003B /* Carro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5348FA25B74FC000B1003B /* Carro.swift */; };
-		FB53492F25B9D88C00B1003B /* VendedorDeProducto.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53492E25B9D88C00B1003B /* VendedorDeProducto.swift */; };
-		FB53493825BA1DA800B1003B /* VendedorDeProductosTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53493725BA1DA800B1003B /* VendedorDeProductosTest.swift */; };
-		FB53497025BB2AFD00B1003B /* Vehiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53496F25BB2AFD00B1003B /* Vehiculos.swift */; };
-		FB53497625BB35C700B1003B /* AlmacenDeVehiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53497525BB35C700B1003B /* AlmacenDeVehiculos.swift */; };
-		FB53498725BB786500B1003B /* VendedorDeVehiculoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53498625BB786500B1003B /* VendedorDeVehiculoTest.swift */; };
-		FB53499225BF1B8900B1003B /* Cheff.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53499125BF1B8900B1003B /* Cheff.swift */; };
-		FB5D58E825BF45A70027CB4F /* Circulo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D58E725BF45A70027CB4F /* Circulo1.swift */; };
-		FB5D58FF25C066DD0027CB4F /* CirculoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D58FE25C066DD0027CB4F /* CirculoTest.swift */; };
-		FB5D590425C07E1A0027CB4F /* VendedorDeVehiculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53496B25BB2A7800B1003B /* VendedorDeVehiculo.swift */; };
-		FB5D590925C07F620027CB4F /* AlmacenDeVehiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53497525BB35C700B1003B /* AlmacenDeVehiculos.swift */; };
-		FB5D590C25C07F650027CB4F /* Vehiculos.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53496F25BB2AFD00B1003B /* Vehiculos.swift */; };
-		FB5D590F25C07F8A0027CB4F /* VendedorDeVehiculo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53496B25BB2A7800B1003B /* VendedorDeVehiculo.swift */; };
-		FB5D591225C07F910027CB4F /* Circulo1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D58E725BF45A70027CB4F /* Circulo1.swift */; };
+		FB5D5A0525C86C880027CB4F /* Ejercicio1Circulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A0425C86C880027CB4F /* Ejercicio1Circulo.swift */; };
+		FB5D5A0925C86DA30027CB4F /* Ejercicio1CirculoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A0825C86DA30027CB4F /* Ejercicio1CirculoTest.swift */; };
+		FB5D5A0C25C870880027CB4F /* Ejercicio1Circulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A0425C86C880027CB4F /* Ejercicio1Circulo.swift */; };
+		FB5D5A0F25C8708B0027CB4F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53486225ADEFFC00B1003B /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,19 +31,8 @@
 		FB53486225ADEFFC00B1003B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		FB53488E25B1F07600B1003B /* Proyecto 1ETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Proyecto 1ETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB53489225B1F07600B1003B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FB5348B025B5D53700B1003B /* Hamburguesas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamburguesas.swift; sourceTree = "<group>"; };
-		FB5348E325B7366400B1003B /* VendedorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorTest.swift; sourceTree = "<group>"; };
-		FB5348F025B74C4F00B1003B /* VendedorDeCarros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorDeCarros.swift; sourceTree = "<group>"; };
-		FB5348FA25B74FC000B1003B /* Carro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carro.swift; sourceTree = "<group>"; };
-		FB53492E25B9D88C00B1003B /* VendedorDeProducto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorDeProducto.swift; sourceTree = "<group>"; };
-		FB53493725BA1DA800B1003B /* VendedorDeProductosTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorDeProductosTest.swift; sourceTree = "<group>"; };
-		FB53496B25BB2A7800B1003B /* VendedorDeVehiculo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorDeVehiculo.swift; sourceTree = "<group>"; };
-		FB53496F25BB2AFD00B1003B /* Vehiculos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehiculos.swift; sourceTree = "<group>"; };
-		FB53497525BB35C700B1003B /* AlmacenDeVehiculos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlmacenDeVehiculos.swift; sourceTree = "<group>"; };
-		FB53498625BB786500B1003B /* VendedorDeVehiculoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VendedorDeVehiculoTest.swift; sourceTree = "<group>"; };
-		FB53499125BF1B8900B1003B /* Cheff.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cheff.swift; sourceTree = "<group>"; };
-		FB5D58E725BF45A70027CB4F /* Circulo1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Circulo1.swift; sourceTree = "<group>"; };
-		FB5D58FE25C066DD0027CB4F /* CirculoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirculoTest.swift; sourceTree = "<group>"; };
+		FB5D5A0425C86C880027CB4F /* Ejercicio1Circulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio1Circulo.swift; sourceTree = "<group>"; };
+		FB5D5A0825C86DA30027CB4F /* Ejercicio1CirculoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio1CirculoTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,12 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				FB53486225ADEFFC00B1003B /* main.swift */,
-				FB5D58E625BF44B90027CB4F /* EjerciciosDeJava */,
-				FB53499025BF1AA700B1003B /* Restaurante */,
-				FB53495825BB26A000B1003B /* VendedorDeVehiculos */,
-				FB53492D25B9D65B00B1003B /* VendedorDeProducto */,
-				FB5348EF25B74C2200B1003B /* VendedorDeCarros */,
-				FB5348EE25B74C1200B1003B /* Hamburguesas */,
+				FB5D5A0425C86C880027CB4F /* Ejercicio1Circulo.swift */,
 			);
 			path = "Proyecto 1E";
 			sourceTree = "<group>";
@@ -115,96 +83,10 @@
 		FB53488F25B1F07600B1003B /* Proyecto 1ETests */ = {
 			isa = PBXGroup;
 			children = (
-				FB5D58F325C061BA0027CB4F /* EjerciciosDeJavaEnSwift */,
-				FB53498325BB783700B1003B /* VendedorDeVehiculo */,
-				FB53493625BA1D7600B1003B /* VendedorDeProductos */,
-				FB53490625B891AE00B1003B /* Hamburguesa */,
 				FB53489225B1F07600B1003B /* Info.plist */,
+				FB5D5A0825C86DA30027CB4F /* Ejercicio1CirculoTest.swift */,
 			);
 			path = "Proyecto 1ETests";
-			sourceTree = "<group>";
-		};
-		FB5348EE25B74C1200B1003B /* Hamburguesas */ = {
-			isa = PBXGroup;
-			children = (
-				FB5348B025B5D53700B1003B /* Hamburguesas.swift */,
-			);
-			path = Hamburguesas;
-			sourceTree = "<group>";
-		};
-		FB5348EF25B74C2200B1003B /* VendedorDeCarros */ = {
-			isa = PBXGroup;
-			children = (
-				FB5348F025B74C4F00B1003B /* VendedorDeCarros.swift */,
-				FB5348FA25B74FC000B1003B /* Carro.swift */,
-			);
-			path = VendedorDeCarros;
-			sourceTree = "<group>";
-		};
-		FB53490625B891AE00B1003B /* Hamburguesa */ = {
-			isa = PBXGroup;
-			children = (
-				FB5348E325B7366400B1003B /* VendedorTest.swift */,
-			);
-			path = Hamburguesa;
-			sourceTree = "<group>";
-		};
-		FB53492D25B9D65B00B1003B /* VendedorDeProducto */ = {
-			isa = PBXGroup;
-			children = (
-				FB53492E25B9D88C00B1003B /* VendedorDeProducto.swift */,
-			);
-			path = VendedorDeProducto;
-			sourceTree = "<group>";
-		};
-		FB53493625BA1D7600B1003B /* VendedorDeProductos */ = {
-			isa = PBXGroup;
-			children = (
-				FB53493725BA1DA800B1003B /* VendedorDeProductosTest.swift */,
-			);
-			path = VendedorDeProductos;
-			sourceTree = "<group>";
-		};
-		FB53495825BB26A000B1003B /* VendedorDeVehiculos */ = {
-			isa = PBXGroup;
-			children = (
-				FB53496B25BB2A7800B1003B /* VendedorDeVehiculo.swift */,
-				FB53497525BB35C700B1003B /* AlmacenDeVehiculos.swift */,
-				FB53496F25BB2AFD00B1003B /* Vehiculos.swift */,
-			);
-			path = VendedorDeVehiculos;
-			sourceTree = "<group>";
-		};
-		FB53498325BB783700B1003B /* VendedorDeVehiculo */ = {
-			isa = PBXGroup;
-			children = (
-				FB53498625BB786500B1003B /* VendedorDeVehiculoTest.swift */,
-			);
-			path = VendedorDeVehiculo;
-			sourceTree = "<group>";
-		};
-		FB53499025BF1AA700B1003B /* Restaurante */ = {
-			isa = PBXGroup;
-			children = (
-				FB53499125BF1B8900B1003B /* Cheff.swift */,
-			);
-			path = Restaurante;
-			sourceTree = "<group>";
-		};
-		FB5D58E625BF44B90027CB4F /* EjerciciosDeJava */ = {
-			isa = PBXGroup;
-			children = (
-				FB5D58E725BF45A70027CB4F /* Circulo1.swift */,
-			);
-			path = EjerciciosDeJava;
-			sourceTree = "<group>";
-		};
-		FB5D58F325C061BA0027CB4F /* EjerciciosDeJavaEnSwift */ = {
-			isa = PBXGroup;
-			children = (
-				FB5D58FE25C066DD0027CB4F /* CirculoTest.swift */,
-			);
-			path = EjerciciosDeJavaEnSwift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,16 +178,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5348B125B5D53700B1003B /* Hamburguesas.swift in Sources */,
-				FB5348FB25B74FC000B1003B /* Carro.swift in Sources */,
-				FB5D590F25C07F8A0027CB4F /* VendedorDeVehiculo.swift in Sources */,
-				FB53497625BB35C700B1003B /* AlmacenDeVehiculos.swift in Sources */,
-				FB53497025BB2AFD00B1003B /* Vehiculos.swift in Sources */,
-				FB5348F125B74C4F00B1003B /* VendedorDeCarros.swift in Sources */,
 				FB53486325ADEFFC00B1003B /* main.swift in Sources */,
-				FB5D58E825BF45A70027CB4F /* Circulo1.swift in Sources */,
-				FB53492F25B9D88C00B1003B /* VendedorDeProducto.swift in Sources */,
-				FB53499225BF1B8900B1003B /* Cheff.swift in Sources */,
+				FB5D5A0525C86C880027CB4F /* Ejercicio1Circulo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,17 +187,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB5D58FF25C066DD0027CB4F /* CirculoTest.swift in Sources */,
-				FB53498725BB786500B1003B /* VendedorDeVehiculoTest.swift in Sources */,
-				FB5D591225C07F910027CB4F /* Circulo1.swift in Sources */,
-				FB5D590425C07E1A0027CB4F /* VendedorDeVehiculo.swift in Sources */,
-				FB5348E725B736BB00B1003B /* Hamburguesas.swift in Sources */,
-				FB5D590925C07F620027CB4F /* AlmacenDeVehiculos.swift in Sources */,
-				FB53493825BA1DA800B1003B /* VendedorDeProductosTest.swift in Sources */,
-				FB5D590C25C07F650027CB4F /* Vehiculos.swift in Sources */,
-				FB5348E425B7366400B1003B /* VendedorTest.swift in Sources */,
-				FB53491325B89ED100B1003B /* VendedorDeCarros.swift in Sources */,
-				FB53491C25B8AA6500B1003B /* Carro.swift in Sources */,
+				FB5D5A0925C86DA30027CB4F /* Ejercicio1CirculoTest.swift in Sources */,
+				FB5D5A0C25C870880027CB4F /* Ejercicio1Circulo.swift in Sources */,
+				FB5D5A0F25C8708B0027CB4F /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
