@@ -15,7 +15,7 @@ class Ejercicio1CirculoTest: XCTestCase {
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         circulo1 = Circulo(radio: 1.0)
-        circulo2 = Circulo(radio: 5.0)
+        circulo2 = Circulo(color: "rojo")
     }
 
     override func tearDownWithError() throws {

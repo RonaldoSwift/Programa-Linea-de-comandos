@@ -12,6 +12,7 @@
 		FB5D5A0925C86DA30027CB4F /* Ejercicio1CirculoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A0825C86DA30027CB4F /* Ejercicio1CirculoTest.swift */; };
 		FB5D5A0C25C870880027CB4F /* Ejercicio1Circulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A0425C86C880027CB4F /* Ejercicio1Circulo.swift */; };
 		FB5D5A0F25C8708B0027CB4F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53486225ADEFFC00B1003B /* main.swift */; };
+		FB5D5A1325C87AC60027CB4F /* Ejercicio2AutorYLibro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A1225C87AC60027CB4F /* Ejercicio2AutorYLibro.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +34,7 @@
 		FB53489225B1F07600B1003B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5D5A0425C86C880027CB4F /* Ejercicio1Circulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio1Circulo.swift; sourceTree = "<group>"; };
 		FB5D5A0825C86DA30027CB4F /* Ejercicio1CirculoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio1CirculoTest.swift; sourceTree = "<group>"; };
+		FB5D5A1225C87AC60027CB4F /* Ejercicio2AutorYLibro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio2AutorYLibro.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				FB53486225ADEFFC00B1003B /* main.swift */,
+				FB5D5A1225C87AC60027CB4F /* Ejercicio2AutorYLibro.swift */,
 				FB5D5A0425C86C880027CB4F /* Ejercicio1Circulo.swift */,
 			);
 			path = "Proyecto 1E";
@@ -179,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB53486325ADEFFC00B1003B /* main.swift in Sources */,
+				FB5D5A1325C87AC60027CB4F /* Ejercicio2AutorYLibro.swift in Sources */,
 				FB5D5A0525C86C880027CB4F /* Ejercicio1Circulo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

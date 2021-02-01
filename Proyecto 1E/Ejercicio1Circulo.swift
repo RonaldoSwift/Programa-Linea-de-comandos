@@ -19,7 +19,7 @@ class Circulo{
     
     init(color: String) {
         self.color = color
-        self.radio = 1.0
+        self.radio = 5.0
     }
     
     func getRadiu() -> Double{
