@@ -35,8 +35,8 @@ class Autor {
     }
     
     func toString() -> String{
-        let nombreYGenero: String = "El nombre es \(nombre) y el genero es: \(genero)"
-        return nombreYGenero
+        let nombreGeneroYEmail: String = "\(nombre), (\(genero)) at \(correoElectronico) "
+        return nombreGeneroYEmail
     }
 }
 
@@ -83,6 +83,11 @@ class Libro {
     
     func setQtyInStock(qtyInStock: Int) {
         self.qtyInStock = qtyInStock
+    }
+    
+    func toString() -> String {
+        let nombreAutorEmail: String = "\(nombre) by \(autor) (\(autor.getGender())) at email"
+        return nombreAutorEmail
     }
     
 }
