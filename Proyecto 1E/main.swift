@@ -6,6 +6,6 @@
 
 
 var circulo = Circulo(color: "rojo")
-circulo.getRadiu()
+print("El radio es: \(circulo.getRadiu())")
 print("El area del circulo es: \(circulo.getArea())")
 

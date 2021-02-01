@@ -22,8 +22,8 @@ class Circulo{
         self.radio = 1.0
     }
     
-    func getRadiu() {
-        print("Radio es:\(radio)")
+    func getRadiu() -> Double{
+        return radio
     }
     
     func getArea() -> Double {
