@@ -51,6 +51,7 @@ class Libro {
         self.nombre = nombre
         self.autor = autor
         self.precio = precio
+        self.qtyInStock = 0
     }
     
     init(nombre: String, autor:Autor, precio:Double, qtyInStock:Int) {
