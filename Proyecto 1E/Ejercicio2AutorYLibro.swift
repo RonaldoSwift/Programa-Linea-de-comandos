@@ -27,7 +27,7 @@ class Autor {
     }
     
     func setEmail(correoElectronico: String) {
-        print("El Email es: \(correoElectronico)")
+        self.correoElectronico = correoElectronico
     }
     
     func getGender() -> String{
@@ -38,7 +38,6 @@ class Autor {
         let nombreYGenero: String = "El nombre es \(nombre) y el genero es: \(genero)"
         return nombreYGenero
     }
-    
 }
 
 class Libro {
@@ -74,7 +73,7 @@ class Libro {
     }
     
     func setPrice(precio:Double) {
-        print("El precio es: \(precio)")
+        self.precio = precio
     }
     
     func getQtyInStock() -> Int{
@@ -82,7 +81,7 @@ class Libro {
     }
     
     func setQtyInStock(qtyInStock: Int) {
-        print("El qtyInStock es: \(qtyInStock)")
+        self.qtyInStock = qtyInStock
     }
     
 }
