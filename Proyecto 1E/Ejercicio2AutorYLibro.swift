@@ -35,7 +35,7 @@ class Autor {
     }
     
     func toString(nombre:String, genero:String) {
-        
+        print("El nombre es: \(nombre) y el genero es: \(genero)")
     }
     
 }
