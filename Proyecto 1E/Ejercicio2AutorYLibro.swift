@@ -26,7 +26,7 @@ class Autor {
         return correoElectronico
     }
     
-    func setEmail() {
+    func setEmail(correoElectronico: String) {
         print("El Email es: \(correoElectronico)")
     }
     
@@ -34,13 +34,14 @@ class Autor {
         return genero
     }
     
-    func toString(nombre:String, genero:String) {
-        print("El nombre es: \(nombre) y el genero es: \(genero)")
+    func toString() -> String{
+        let nombreYGenero: String = "El nombre es \(nombre) y el genero es: \(genero)"
+        return nombreYGenero
     }
     
 }
 
-class Libro{
+class Libro {
     
     private var nombre: String
     private var autor: Autor
@@ -72,7 +73,7 @@ class Libro{
         return precio
     }
     
-    func setPrice() {
+    func setPrice(precio:Double) {
         print("El precio es: \(precio)")
     }
     
@@ -80,7 +81,7 @@ class Libro{
         return qtyInStock
     }
     
-    func setQtyInStock() {
+    func setQtyInStock(qtyInStock: Int) {
         print("El qtyInStock es: \(qtyInStock)")
     }
     
