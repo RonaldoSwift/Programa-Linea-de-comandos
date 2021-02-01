@@ -86,8 +86,7 @@ class Libro {
     }
     
     func toString() -> String {
-        let nombreAutorEmail: String = "\(nombre) by (\(autor.toString))"
+        let nombreAutorEmail: String = "\(nombre) by \(autor.toString())"
         return nombreAutorEmail
     }
-    
 }

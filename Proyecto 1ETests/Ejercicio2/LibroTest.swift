@@ -9,11 +9,13 @@ import XCTest
 @testable import Proyecto_1E
 
 class LibroTest: XCTestCase {
+    var autor: Autor!
     var libro: Libro!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        libro = Libro(nombre: "Galaxya", autor: Autor, precio: 50.99)
+        autor =  Autor(nombre: "Alex", correoElectronico: "Alex@gmail", genero: "M")
+        libro = Libro(nombre: "Galaxya", autor: autor, precio: 50.99)
     }
 
     override func tearDownWithError() throws {
@@ -24,7 +26,7 @@ class LibroTest: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         XCTAssertEqual("Galaxya", libro.getName())
-        XCTAssertEqual(Autor, libro.getAuthor())
+        XCTAssertEqual(autor, libro.getAuthor())
         XCTAssertEqual(50.99, libro.getPrice())
     }
     func testPerformanceExample() throws {
