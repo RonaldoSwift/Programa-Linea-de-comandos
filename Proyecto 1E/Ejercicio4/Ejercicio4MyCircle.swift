@@ -7,7 +7,7 @@
 
 import Foundation
 
-class MyCircleclass {
+class MyCircle {
     
     private var centro: MyPoint = MyPoint(x: 0, y: 0)
     private var radio: Int
@@ -44,11 +44,7 @@ class MyCircleclass {
     }
     
     func getArea() -> Double{
-        let area = (Int((3.14))*((radio * radio))) ^2
+        let area = (Int((3.14))*((radio * radio)))^2
         return Double(area)
     }
-}
-
-class MyCircle {
-    
 }

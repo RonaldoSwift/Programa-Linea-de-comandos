@@ -10,13 +10,15 @@ import XCTest
 
 class MyCircleTest: XCTestCase {
     
-    var myCircle : MyCircleclass!
-    var myCircle2 : MyCircleclass!
+    var myPoint : MyPoint!
+    var myCircle : MyCircle!
+    var myCircle2 : MyCircle!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
-        myCircle = MyCircleclass(x: 0, y: 0, radio: 0)
-        myCircle2 = MyCircleclass(myPoint: <#MyPoint#>, radio: 0)
+        myPoint = MyPoint()
+        myCircle = MyCircle(x: 0, y: 0, radio: 0)
+        myCircle2 = MyCircle(myPoint: myPoint, radio: 0)
     }
 
     override func tearDownWithError() throws {
@@ -32,18 +34,18 @@ class MyCircleTest: XCTestCase {
     
     func testToString() throws {
         let toString = myCircle.toString()
-        XCTAssertEqual("Circulo @((centro.setX(x: 0)),(centro.setY(y: 0))) radio=(radio)", toString)
+        XCTAssertEqual("Circulo @((),()) radio=0", toString)
         
         let toString2 = myCircle2.toString()
-        XCTAssertEqual("Circulo @((centro.setX(x: 0)),(centro.setY(y: 0))) radio=(radio)", toString2)
+        XCTAssertEqual("Circulo @((),()) radio=0", toString2)
     }
     
     func testGetArea() throws {
         let getArea = myCircle.getArea()
-        XCTAssertEqual(0 , getArea)
+        XCTAssertEqual(2.0 , getArea)
         
         let getArea2 = myCircle2.getArea()
-        XCTAssertEqual(0, getArea2)
+        XCTAssertEqual(2.0, getArea2)
     }
     
     func testPerformanceExample() throws {
