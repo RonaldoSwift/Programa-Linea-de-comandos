@@ -25,9 +25,16 @@ class MyPoint {
     func getX() ->Int {
         return x
     }
+    func setX(x: Int) {
+        self.x = x
+    }
     
     func setY(y: Int) {
         self.y = y
+    }
+    
+    func getY() ->Int {
+        return y
     }
     
     func setXY(x:Int, y:Int) {
@@ -36,7 +43,7 @@ class MyPoint {
     }
     
     func toString() ->String {
-        let cadena: String = "El numero x es: \(x) y el numero y es: \(y)"
+        let cadena: String = "(\(x),\(y))"
         return cadena
     }
     

@@ -27,10 +27,13 @@ class MyPointTest: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         XCTAssertEqual(0 , myPoint.x)
     }
+    func testGetY() throws {
+        XCTAssertEqual(0, myPoint.y)
+    }
     
     func testToString() throws {
         let toString = myPoint.toString()
-        XCTAssertEqual("El numero x es: 0 y el numero y es: 0", toString)
+        XCTAssertEqual("(0,0)", toString)
     }
     
     func testDistanceXY() throws {
