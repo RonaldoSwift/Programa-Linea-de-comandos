@@ -16,6 +16,7 @@
 		FB5D5A2225C8AF420027CB4F /* AutorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A2125C8AF420027CB4F /* AutorTest.swift */; };
 		FB5D5A2725C8B25D0027CB4F /* Ejercicio2AutorYLibro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A1C25C89E6B0027CB4F /* Ejercicio2AutorYLibro.swift */; };
 		FB5D5A2B25C8B2870027CB4F /* LibroTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A2A25C8B2870027CB4F /* LibroTest.swift */; };
+		FB5D5A3C25C99EA00027CB4F /* Ejercicio3MyPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A3B25C99EA00027CB4F /* Ejercicio3MyPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,7 @@
 		FB5D5A1C25C89E6B0027CB4F /* Ejercicio2AutorYLibro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio2AutorYLibro.swift; sourceTree = "<group>"; };
 		FB5D5A2125C8AF420027CB4F /* AutorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorTest.swift; sourceTree = "<group>"; };
 		FB5D5A2A25C8B2870027CB4F /* LibroTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibroTest.swift; sourceTree = "<group>"; };
+		FB5D5A3B25C99EA00027CB4F /* Ejercicio3MyPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio3MyPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				FB53486225ADEFFC00B1003B /* main.swift */,
 				FB5D5A3025C8B8770027CB4F /* Ejercicio1 */,
 				FB5D5A3125C8B8830027CB4F /* Ejercicio2 */,
+				FB5D5A3A25C99DF30027CB4F /* Ejercicio3 */,
 			);
 			path = "Proyecto 1E";
 			sourceTree = "<group>";
@@ -129,6 +132,14 @@
 				FB5D5A1C25C89E6B0027CB4F /* Ejercicio2AutorYLibro.swift */,
 			);
 			path = Ejercicio2;
+			sourceTree = "<group>";
+		};
+		FB5D5A3A25C99DF30027CB4F /* Ejercicio3 */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D5A3B25C99EA00027CB4F /* Ejercicio3MyPoint.swift */,
+			);
+			path = Ejercicio3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +233,7 @@
 			files = (
 				FB53486325ADEFFC00B1003B /* main.swift in Sources */,
 				FB5D5A1D25C89E6B0027CB4F /* Ejercicio2AutorYLibro.swift in Sources */,
+				FB5D5A3C25C99EA00027CB4F /* Ejercicio3MyPoint.swift in Sources */,
 				FB5D5A0525C86C880027CB4F /* Ejercicio1Circulo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
