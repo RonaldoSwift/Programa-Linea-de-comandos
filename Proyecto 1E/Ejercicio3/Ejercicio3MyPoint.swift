@@ -43,7 +43,7 @@ class MyPoint {
     func distance(x: Int, y:Int) ->Double {
         let xDiff = self.x - x
         let yDiff = self.y - y
-        return Double(Int(sqrt(Double(xDiff*xDiff + yDiff*yDiff))))
+        return sqrt(Double(xDiff*xDiff + yDiff*yDiff))
     }
     
     func distance(myPointAnother: MyPoint) ->Double {
