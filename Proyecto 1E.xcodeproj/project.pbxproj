@@ -19,6 +19,9 @@
 		FB5D5A3C25C99EA00027CB4F /* Ejercicio3MyPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A3B25C99EA00027CB4F /* Ejercicio3MyPoint.swift */; };
 		FB5D5A3F25C9AEA60027CB4F /* Ejercicio3MyPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A3B25C99EA00027CB4F /* Ejercicio3MyPoint.swift */; };
 		FB5D5A4425C9AEF20027CB4F /* MyPointTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A4325C9AEF20027CB4F /* MyPointTest.swift */; };
+		FB5D5A5525C9CEC80027CB4F /* Ejercicio4MyCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A5425C9CEC80027CB4F /* Ejercicio4MyCircle.swift */; };
+		FB5D5A5A25C9F7660027CB4F /* MyCircleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A5925C9F7660027CB4F /* MyCircleTest.swift */; };
+		FB5D5A5F25C9FEE10027CB4F /* Ejercicio4MyCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A5425C9CEC80027CB4F /* Ejercicio4MyCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +48,8 @@
 		FB5D5A2A25C8B2870027CB4F /* LibroTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibroTest.swift; sourceTree = "<group>"; };
 		FB5D5A3B25C99EA00027CB4F /* Ejercicio3MyPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio3MyPoint.swift; sourceTree = "<group>"; };
 		FB5D5A4325C9AEF20027CB4F /* MyPointTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPointTest.swift; sourceTree = "<group>"; };
+		FB5D5A5425C9CEC80027CB4F /* Ejercicio4MyCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio4MyCircle.swift; sourceTree = "<group>"; };
+		FB5D5A5925C9F7660027CB4F /* MyCircleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +95,7 @@
 				FB5D5A3025C8B8770027CB4F /* Ejercicio1 */,
 				FB5D5A3125C8B8830027CB4F /* Ejercicio2 */,
 				FB5D5A3A25C99DF30027CB4F /* Ejercicio3 */,
+				FB5D5A4D25C9CE470027CB4F /* Ejercicio4 */,
 			);
 			path = "Proyecto 1E";
 			sourceTree = "<group>";
@@ -100,6 +106,7 @@
 				FB5D5A2E25C8B83A0027CB4F /* Ejercicio1 */,
 				FB5D5A2F25C8B84A0027CB4F /* Ejercicio2 */,
 				FB5D5A4225C9AEC00027CB4F /* Ejercicio3 */,
+				FB5D5A5825C9F7270027CB4F /* Ejercicio4 */,
 				FB53489225B1F07600B1003B /* Info.plist */,
 			);
 			path = "Proyecto 1ETests";
@@ -152,6 +159,22 @@
 				FB5D5A4325C9AEF20027CB4F /* MyPointTest.swift */,
 			);
 			path = Ejercicio3;
+			sourceTree = "<group>";
+		};
+		FB5D5A4D25C9CE470027CB4F /* Ejercicio4 */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D5A5425C9CEC80027CB4F /* Ejercicio4MyCircle.swift */,
+			);
+			path = Ejercicio4;
+			sourceTree = "<group>";
+		};
+		FB5D5A5825C9F7270027CB4F /* Ejercicio4 */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D5A5925C9F7660027CB4F /* MyCircleTest.swift */,
+			);
+			path = Ejercicio4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +270,7 @@
 				FB5D5A1D25C89E6B0027CB4F /* Ejercicio2AutorYLibro.swift in Sources */,
 				FB5D5A3C25C99EA00027CB4F /* Ejercicio3MyPoint.swift in Sources */,
 				FB5D5A0525C86C880027CB4F /* Ejercicio1Circulo.swift in Sources */,
+				FB5D5A5525C9CEC80027CB4F /* Ejercicio4MyCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,8 +279,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB5D5A2B25C8B2870027CB4F /* LibroTest.swift in Sources */,
+				FB5D5A5A25C9F7660027CB4F /* MyCircleTest.swift in Sources */,
 				FB5D5A2725C8B25D0027CB4F /* Ejercicio2AutorYLibro.swift in Sources */,
 				FB5D5A0925C86DA30027CB4F /* Ejercicio1CirculoTest.swift in Sources */,
+				FB5D5A5F25C9FEE10027CB4F /* Ejercicio4MyCircle.swift in Sources */,
 				FB5D5A2225C8AF420027CB4F /* AutorTest.swift in Sources */,
 				FB5D5A4425C9AEF20027CB4F /* MyPointTest.swift in Sources */,
 				FB5D5A0C25C870880027CB4F /* Ejercicio1Circulo.swift in Sources */,
