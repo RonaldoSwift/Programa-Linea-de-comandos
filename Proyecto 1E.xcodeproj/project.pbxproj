@@ -21,6 +21,7 @@
 		FB5D5A4425C9AEF20027CB4F /* MyPointTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A4325C9AEF20027CB4F /* MyPointTest.swift */; };
 		FB5D5A5525C9CEC80027CB4F /* Ejercicio4MyCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A5425C9CEC80027CB4F /* Ejercicio4MyCircle.swift */; };
 		FB5D5A5A25C9F7660027CB4F /* MyCircleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A5925C9F7660027CB4F /* MyCircleTest.swift */; };
+		FB5D5A5F25C9FEE10027CB4F /* Ejercicio4MyCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A5425C9CEC80027CB4F /* Ejercicio4MyCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -281,6 +282,7 @@
 				FB5D5A5A25C9F7660027CB4F /* MyCircleTest.swift in Sources */,
 				FB5D5A2725C8B25D0027CB4F /* Ejercicio2AutorYLibro.swift in Sources */,
 				FB5D5A0925C86DA30027CB4F /* Ejercicio1CirculoTest.swift in Sources */,
+				FB5D5A5F25C9FEE10027CB4F /* Ejercicio4MyCircle.swift in Sources */,
 				FB5D5A2225C8AF420027CB4F /* AutorTest.swift in Sources */,
 				FB5D5A4425C9AEF20027CB4F /* MyPointTest.swift in Sources */,
 				FB5D5A0C25C870880027CB4F /* Ejercicio1Circulo.swift in Sources */,
