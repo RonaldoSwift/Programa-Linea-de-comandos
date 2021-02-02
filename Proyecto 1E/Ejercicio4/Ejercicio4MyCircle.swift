@@ -44,7 +44,7 @@ class MyCircle {
     }
     
     func getArea() -> Double{
-        let area = (Int((3.14))*((radio * radio)))^2
-        return Double(area)
+        let area = 3.14 * Double(radio * radio)
+        return area
     }
 }

@@ -17,7 +17,7 @@ class MyCircleTest: XCTestCase {
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         myPoint = MyPoint()
-        myCircle = MyCircle(x: 0, y: 0, radio: 0)
+        myCircle = MyCircle(x: 0, y: 0, radio: 5)
         myCircle2 = MyCircle(myPoint: myPoint, radio: 0)
     }
 
@@ -28,13 +28,13 @@ class MyCircleTest: XCTestCase {
     func testRadio() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        XCTAssertEqual(0, myCircle.getRadio())
+        XCTAssertEqual(5, myCircle.getRadio())
         XCTAssertEqual(0, myCircle2.getRadio())
     }
     
     func testToString() throws {
         let toString = myCircle.toString()
-        XCTAssertEqual("Circulo @((),()) radio=0", toString)
+        XCTAssertEqual("Circulo @((),()) radio=5", toString)
         
         let toString2 = myCircle2.toString()
         XCTAssertEqual("Circulo @((),()) radio=0", toString2)
@@ -42,10 +42,10 @@ class MyCircleTest: XCTestCase {
     
     func testGetArea() throws {
         let getArea = myCircle.getArea()
-        XCTAssertEqual(2.0 , getArea)
+        XCTAssertEqual(78.5 , getArea)
         
         let getArea2 = myCircle2.getArea()
-        XCTAssertEqual(2.0, getArea2)
+        XCTAssertEqual(0.0, getArea2)
     }
     
     func testPerformanceExample() throws {
