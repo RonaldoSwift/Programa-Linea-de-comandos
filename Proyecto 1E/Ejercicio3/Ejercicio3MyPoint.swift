@@ -53,6 +53,15 @@ class MyPoint {
         return sqrt(Double(xDiff*xDiff + yDiff*yDiff))
     }
     
+    /**
+     Esta funcion devuelve la `distancie` de punto
+     
+     - Adevertence: La funcion distancia esta usando otro parametro
+     - Parametro subject: Distancia
+     - Devuelve: el distanciamiento entre 2 puntos
+     
+     */
+    
     func distance(myPointAnother: MyPoint) ->Double {
         let xDiff = self.x - myPointAnother.x
         let yDiff = self.y - myPointAnother.y
