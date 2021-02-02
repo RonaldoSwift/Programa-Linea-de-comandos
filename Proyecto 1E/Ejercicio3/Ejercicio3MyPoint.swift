@@ -56,9 +56,9 @@ class MyPoint {
     /**
      Esta funcion devuelve la `distancie` de punto
      
-     - Adevertence: La funcion distancia esta usando otro parametro
-     - Parametro subject: Distancia
-     - Devuelve: el distanciamiento entre 2 puntos
+     - Warning: La funcion distancia esta usando otro parametro diferente ala primera funcion
+     - Parameter myPointAnother: Parametro de la funcion
+     - Returns: Distanciamiento entre 2 puntos
      
      */
     
