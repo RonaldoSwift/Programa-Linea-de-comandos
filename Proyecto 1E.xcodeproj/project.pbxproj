@@ -12,6 +12,10 @@
 		FB5D5A0925C86DA30027CB4F /* Ejercicio1CirculoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A0825C86DA30027CB4F /* Ejercicio1CirculoTest.swift */; };
 		FB5D5A0C25C870880027CB4F /* Ejercicio1Circulo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A0425C86C880027CB4F /* Ejercicio1Circulo.swift */; };
 		FB5D5A0F25C8708B0027CB4F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB53486225ADEFFC00B1003B /* main.swift */; };
+		FB5D5A1D25C89E6B0027CB4F /* Ejercicio2AutorYLibro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A1C25C89E6B0027CB4F /* Ejercicio2AutorYLibro.swift */; };
+		FB5D5A2225C8AF420027CB4F /* AutorTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A2125C8AF420027CB4F /* AutorTest.swift */; };
+		FB5D5A2725C8B25D0027CB4F /* Ejercicio2AutorYLibro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A1C25C89E6B0027CB4F /* Ejercicio2AutorYLibro.swift */; };
+		FB5D5A2B25C8B2870027CB4F /* LibroTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A2A25C8B2870027CB4F /* LibroTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +37,9 @@
 		FB53489225B1F07600B1003B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB5D5A0425C86C880027CB4F /* Ejercicio1Circulo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio1Circulo.swift; sourceTree = "<group>"; };
 		FB5D5A0825C86DA30027CB4F /* Ejercicio1CirculoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio1CirculoTest.swift; sourceTree = "<group>"; };
+		FB5D5A1C25C89E6B0027CB4F /* Ejercicio2AutorYLibro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio2AutorYLibro.swift; sourceTree = "<group>"; };
+		FB5D5A2125C8AF420027CB4F /* AutorTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutorTest.swift; sourceTree = "<group>"; };
+		FB5D5A2A25C8B2870027CB4F /* LibroTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibroTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +82,8 @@
 			isa = PBXGroup;
 			children = (
 				FB53486225ADEFFC00B1003B /* main.swift */,
-				FB5D5A0425C86C880027CB4F /* Ejercicio1Circulo.swift */,
+				FB5D5A3025C8B8770027CB4F /* Ejercicio1 */,
+				FB5D5A3125C8B8830027CB4F /* Ejercicio2 */,
 			);
 			path = "Proyecto 1E";
 			sourceTree = "<group>";
@@ -83,10 +91,44 @@
 		FB53488F25B1F07600B1003B /* Proyecto 1ETests */ = {
 			isa = PBXGroup;
 			children = (
+				FB5D5A2E25C8B83A0027CB4F /* Ejercicio1 */,
+				FB5D5A2F25C8B84A0027CB4F /* Ejercicio2 */,
 				FB53489225B1F07600B1003B /* Info.plist */,
-				FB5D5A0825C86DA30027CB4F /* Ejercicio1CirculoTest.swift */,
 			);
 			path = "Proyecto 1ETests";
+			sourceTree = "<group>";
+		};
+		FB5D5A2E25C8B83A0027CB4F /* Ejercicio1 */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D5A0825C86DA30027CB4F /* Ejercicio1CirculoTest.swift */,
+			);
+			path = Ejercicio1;
+			sourceTree = "<group>";
+		};
+		FB5D5A2F25C8B84A0027CB4F /* Ejercicio2 */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D5A2125C8AF420027CB4F /* AutorTest.swift */,
+				FB5D5A2A25C8B2870027CB4F /* LibroTest.swift */,
+			);
+			path = Ejercicio2;
+			sourceTree = "<group>";
+		};
+		FB5D5A3025C8B8770027CB4F /* Ejercicio1 */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D5A0425C86C880027CB4F /* Ejercicio1Circulo.swift */,
+			);
+			path = Ejercicio1;
+			sourceTree = "<group>";
+		};
+		FB5D5A3125C8B8830027CB4F /* Ejercicio2 */ = {
+			isa = PBXGroup;
+			children = (
+				FB5D5A1C25C89E6B0027CB4F /* Ejercicio2AutorYLibro.swift */,
+			);
+			path = Ejercicio2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +221,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB53486325ADEFFC00B1003B /* main.swift in Sources */,
+				FB5D5A1D25C89E6B0027CB4F /* Ejercicio2AutorYLibro.swift in Sources */,
 				FB5D5A0525C86C880027CB4F /* Ejercicio1Circulo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -187,7 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB5D5A2B25C8B2870027CB4F /* LibroTest.swift in Sources */,
+				FB5D5A2725C8B25D0027CB4F /* Ejercicio2AutorYLibro.swift in Sources */,
 				FB5D5A0925C86DA30027CB4F /* Ejercicio1CirculoTest.swift in Sources */,
+				FB5D5A2225C8AF420027CB4F /* AutorTest.swift in Sources */,
 				FB5D5A0C25C870880027CB4F /* Ejercicio1Circulo.swift in Sources */,
 				FB5D5A0F25C8708B0027CB4F /* main.swift in Sources */,
 			);
