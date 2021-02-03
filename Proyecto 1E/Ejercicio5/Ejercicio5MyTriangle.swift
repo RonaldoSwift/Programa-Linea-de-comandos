@@ -13,10 +13,14 @@ class MyTriangle {
     private var v2: MyPoint
     private var v3: MyPoint
 
-    init(v1:MyPoint, v2:MyPoint, v3:MyPoint) {
-        self.v1 = MyPoint(x: 0, y: 0)
-        self.v2 = MyPoint(x: 0, y: 0)
-        self.v3 = MyPoint(x: 0, y: 0)
+    init(x1:MyPoint,y1:MyPoint,x2:MyPoint,y2:MyPoint,x3:MyPoint,y3:MyPoint) {
+        self.v1 = x1
+        self.v1 = y2
+        self.v2 = x1
+        self.v2 = y2
+        self.v3 = x3
+        self.v3 = y3
+        
     }
     
     init(v1:MyPoint, v2:MyPoint, v3:MyPoint) {
