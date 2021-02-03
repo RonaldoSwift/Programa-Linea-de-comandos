@@ -9,18 +9,17 @@ import Foundation
 
 class MyTriangle {
     
-    private var v1: MyPoint
-    private var v2: MyPoint
-    private var v3: MyPoint
+    private var v1: MyPoint = MyPoint()
+    private var v2: MyPoint = MyPoint()
+    private var v3: MyPoint = MyPoint()
 
-    init(x1:MyPoint,y1:MyPoint,x2:MyPoint,y2:MyPoint,x3:MyPoint,y3:MyPoint) {
-        self.v1 = x1
-        self.v1 = y2
-        self.v2 = x1
-        self.v2 = y2
-        self.v3 = x3
-        self.v3 = y3
-        
+    init(x1:Int,y1:Int,x2:Int,y2:Int,x3:Int,y3:Int) {
+        self.v1.x = x1
+        self.v1.y = y1
+        self.v2.x = x2
+        self.v2.y = y2
+        self.v3.x = x3
+        self.v3.y = y3
     }
     
     init(v1:MyPoint, v2:MyPoint, v3:MyPoint) {
@@ -35,9 +34,10 @@ class MyTriangle {
     }
     
     func getPerimeter() -> Double {
-        let myPoint = MyPoint()
-        let distancia:MyPoint = MyPoint.distance(myPoint)
-        let perimetro = distancia + distancia + distancia
+        let l1 = v1.distance(myPointAnother: v2)
+        let l2 = v2.distance(myPointAnother: v3)
+        let l3 = v2.distance(myPointAnother: v1)
+        let perimetro = l1 + l2 + l3
         return perimetro
     }
     
