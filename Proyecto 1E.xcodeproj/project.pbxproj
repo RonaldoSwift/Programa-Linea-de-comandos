@@ -25,6 +25,7 @@
 		FB5D5A6825CA076E0027CB4F /* Ejercicio5MyTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A6725CA076E0027CB4F /* Ejercicio5MyTriangle.swift */; };
 		FB5D5A6D25CAEE080027CB4F /* Ejercicio5MyTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A6725CA076E0027CB4F /* Ejercicio5MyTriangle.swift */; };
 		FB5D5A7225CB0CE50027CB4F /* MyTriangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A7125CB0CE50027CB4F /* MyTriangleTest.swift */; };
+		FBD1051525D2F0DA00EC3EA6 /* Condicionales.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1051425D2F0DA00EC3EA6 /* Condicionales.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +56,7 @@
 		FB5D5A5925C9F7660027CB4F /* MyCircleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleTest.swift; sourceTree = "<group>"; };
 		FB5D5A6725CA076E0027CB4F /* Ejercicio5MyTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio5MyTriangle.swift; sourceTree = "<group>"; };
 		FB5D5A7125CB0CE50027CB4F /* MyTriangleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTriangleTest.swift; sourceTree = "<group>"; };
+		FBD1051425D2F0DA00EC3EA6 /* Condicionales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condicionales.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		FB53486125ADEFFC00B1003B /* Proyecto 1E */ = {
 			isa = PBXGroup;
 			children = (
+				FBD1051325D2EFB000EC3EA6 /* Condicionales */,
 				FB53486225ADEFFC00B1003B /* main.swift */,
 				FB5D5A3025C8B8770027CB4F /* Ejercicio1 */,
 				FB5D5A3125C8B8830027CB4F /* Ejercicio2 */,
@@ -200,6 +203,14 @@
 			path = Ejercicio5;
 			sourceTree = "<group>";
 		};
+		FBD1051325D2EFB000EC3EA6 /* Condicionales */ = {
+			isa = PBXGroup;
+			children = (
+				FBD1051425D2F0DA00EC3EA6 /* Condicionales.swift */,
+			);
+			path = Condicionales;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -290,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB53486325ADEFFC00B1003B /* main.swift in Sources */,
+				FBD1051525D2F0DA00EC3EA6 /* Condicionales.swift in Sources */,
 				FB5D5A6825CA076E0027CB4F /* Ejercicio5MyTriangle.swift in Sources */,
 				FB5D5A1D25C89E6B0027CB4F /* Ejercicio2AutorYLibro.swift in Sources */,
 				FB5D5A3C25C99EA00027CB4F /* Ejercicio3MyPoint.swift in Sources */,
