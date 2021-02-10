@@ -11,7 +11,7 @@ print("El radio es: \(circulo.getRadiu())")
 print("El area del circulo es: \(circulo.getArea())")
 */
 
-var condicionales = Condicionales()
+/*var condicionales = Condicionales()
 condicionales.encontrarElMayor()
 
 var condicionales2 = Condicionales2()
@@ -37,4 +37,8 @@ condicionales8.encontrarElMenor()
 
 var condicionales9 = Condicionales9()
 condicionales9.encontrarSiEsDivisible()
+*/
 
+var condicionales11 = Condicionales11()
+condicionales11.regenerar()
+print("hoka")

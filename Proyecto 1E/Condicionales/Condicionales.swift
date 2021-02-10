@@ -133,10 +133,37 @@ class Condicionales9 {
     func encontrarSiEsDivisible() {
         
         if(numero % 3 == 0 && numero % 5 == 0 && numero % 7 == 0){
-        print("El numero es divisible netre 3, 5 y 7")
+            print("El numero es divisible netre 3, 5 y 7")
         }else {
             print("El numero no es divisible entre 3, 5 y 7")
         }
     }
 }
 
+class Condicionales10 {
+    var x: Int = 1
+    var y: Int = 2
+    var lowX: Int = 1
+    var lowY: Int = 1
+    var highX: Int = 3
+    var highY: Int = 3
+    
+    func averiguarELPunto() {
+    }
+}
+
+class Condicionales11 {
+    var puntosDeVida = Int.random(in: 1..<100)
+    //    var puntosDeVida: Int =
+    
+    func regenerar() {
+        if(puntosDeVida>=21 && puntosDeVida<=95){
+            let regenerando = puntosDeVida + 5
+            print("Regenerando + 5 puntos -> \(regenerando)")
+        }else if(puntosDeVida>=1  && puntosDeVida<=20) {
+            print("Regenerando hasta 20 puntos de vida")
+        }else if(puntosDeVida == 0){
+            print("No se puede regenerar (Esta Muerto...)")
+        }
+    }
+}
