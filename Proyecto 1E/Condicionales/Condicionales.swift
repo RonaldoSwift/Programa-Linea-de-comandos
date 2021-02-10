@@ -98,7 +98,7 @@ class Condicionales6 {
 class Condicionales7 {
     private var randomNumber = Int.random(in: 1..<3)
     
-    func encontrarNumeroRandom() -> String {
+    func encontrarNumeroRandom(randoNumber: Int) -> String {
         if (randomNumber == 1){
             return "Cara"
         } else if(randomNumber == 2) {
@@ -129,9 +129,8 @@ class Condicionales8 {
 }
 
 class Condicionales9 {
-    private var numero: Int = 105
     
-    func encontrarSiEsDivisible() -> String {
+    func encontrarSiEsDivisible(numero: Int) -> String {
         
         if(numero % 3 == 0 && numero % 5 == 0 && numero % 7 == 0){
             return "El numero es divisible netre 3, 5 y 7"
@@ -162,7 +161,7 @@ class Condicionales11 {
     //var puntosDeVida = Int.random(in: 1..<100)
        private var puntosDeVida: Int = 0
     
-    func regenerar() -> String{
+    func regenerar(puntosDeVida: Int) -> String{
         if(puntosDeVida>=21 && puntosDeVida<=95){
             let regenerando = puntosDeVida + 5
             return "Regenerando + 5 puntos -> \(regenerando)"

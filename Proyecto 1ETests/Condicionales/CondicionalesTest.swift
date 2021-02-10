@@ -68,7 +68,9 @@ class CondicionalesTest: XCTestCase {
     }
     
     func testCondicionales7() throws {
-        XCTAssertEqual("Cara", condicionales7.encontrarNumeroRandom())
+        XCTAssertEqual("Cara", condicionales7.encontrarNumeroRandom(randoNumber: 1))
+        XCTAssertEqual("Sello", condicionales7.encontrarNumeroRandom(randoNumber: 2))
+        XCTAssertEqual("0", condicionales7.encontrarNumeroRandom(randoNumber:4))
     }
     
     func testCondicionales8() throws {
@@ -76,7 +78,8 @@ class CondicionalesTest: XCTestCase {
     }
     
     func testCondicionales9() throws {
-        XCTAssertEqual("El numero es divisible netre 3, 5 y 7", condicionales9.encontrarSiEsDivisible())
+        XCTAssertEqual("El numero es divisible netre 3, 5 y 7", condicionales9.encontrarSiEsDivisible(numero:105 ))
+        XCTAssertEqual("El numero no es divisible entre 3, 5 y 7", condicionales9.encontrarSiEsDivisible(numero: 102))
     }
     
     func testCondicionales10() throws {
@@ -84,7 +87,12 @@ class CondicionalesTest: XCTestCase {
     }
     
     func testCondicionales11() throws {
-        XCTAssertEqual("No se puede regenerar (Esta Muerto...)", condicionales11.regenerar())
+        XCTAssertEqual("Regenerando + 5 puntos -> 99", condicionales11.regenerar(puntosDeVida: 94))
+        XCTAssertEqual("Regenerando hasta 20 puntos de vida", condicionales11.regenerar(puntosDeVida: 5))
+        XCTAssertEqual("No se puede regenerar (Esta Muerto...)", condicionales11.regenerar(puntosDeVida: 0))
+        XCTAssertEqual("0", condicionales11.regenerar(puntosDeVida: 97))
+
+
     }
     func testPerformanceExample() throws {
         // This is an example of a performance test case.
