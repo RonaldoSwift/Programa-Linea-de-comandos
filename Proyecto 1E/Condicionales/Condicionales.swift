@@ -9,8 +9,8 @@ import Foundation
 
 class Condicionales {
     
-    var a:  Int = 33
-    var b:  Int = 22
+    private var a:  Int = 33
+    private var b:  Int = 22
     
     func encontrarElMayor() -> Int {
         if ( a > b) {

@@ -23,9 +23,7 @@ class CondicionalesTest: XCTestCase {
     func testCondicionales() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        XCTAssertEqual(33, condicionales.a)
-        XCTAssertEqual(22, condicionales.b)
-        
+        XCTAssertEqual(33, condicionales.encontrarElMayor())
     }
 
     func testPerformanceExample() throws {
