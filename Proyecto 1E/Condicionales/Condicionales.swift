@@ -12,12 +12,13 @@ class Condicionales {
     var a:  Int = 33
     var b:  Int = 22
     
-    func encontrarElMayor() {
+    func encontrarElMayor() -> Int {
         if ( a > b) {
-            print("\(a) es el mayor")
+            return a
         }else if (a < b){
-            print("\(b) es el mayor")
+            return b
         }
+        return 0
     }
 }
 
@@ -149,6 +150,11 @@ class Condicionales10 {
     var highY: Int = 3
     
     func averiguarELPunto() {
+        if (x >= lowX && y >= lowY && x <= highX && y <= highY) {
+            print("Esta dentro")
+        } else {
+            print("No esta dentro")
+        }
     }
 }
 
