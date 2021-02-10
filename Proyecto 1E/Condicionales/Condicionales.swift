@@ -24,98 +24,98 @@ class Condicionales {
 
 class Condicionales2 {
     
-    let number: Int = 2
+    private let number: Int = 2
     
-    func encontrarSiEsPar() {
+    func encontrarSiEsPar() -> String {
         if (number % 2 == 0){
-            print("El numero es par")
+            return "El numero es par"
         } else {
-            print("El numero es impar")
+            return "El numero es impar"
         }
     }
 }
 
 class Condicionales3 {
     
-    let a: Int = 12
-    let b: Int = 3
+    private let a: Int = 12
+    private let b: Int = 3
     
-    func encontarSieEsDivisible() {
+    func encontarSieEsDivisible() -> String{
         if (b != 0 && a % b == 0){
-            print("Es divisible")
+            return "Es divisible"
         }else {
-            print("No es divisible")
+            return "No es divisible"
         }
     }
 }
 
-class Condicinales4 {
+class Condicionales4 {
     
-    var a: Int = 2
-    var b: Int = 3
-    var c: Int = 2
+    private var a: Int = 2
+    private var b: Int = 3
+    private var c: Int = 2
     
-    func encontrarSiAlMenos2SonInguales() {
+    func encontrarSiAlMenos2SonInguales() -> String {
         if(a==b || a==c || b==c ){
-            print("Dos numeros son iguales")
+            return "Dos numeros son iguales"
         }else {
-            print("Todos los numeros son diferentes")
+            return "Todos los numeros son diferentes"
         }
     }
 }
 
 
 class Condicionales5 {
-    var cantidadDeHuevos: Int = 6
-    var bacon: Int = 12
+    private var cantidadDeHuevos: Int = 6
+    private var bacon: Int = 12
     
-    func refrigerar() {
+    func refrigerar() -> String {
         if(cantidadDeHuevos <= 21 && bacon <= 7){
-            print("Se puede cocinar bacon y huevos...")
+            return "Se puede cocinar bacon y huevos..."
         }else {
-            print("Tirar ingredientes...")
+            return "Tirar ingredientes..."
         }
     }
-    
 }
 
 class Condicionales6 {
-    var year = 2014
-    let divisibleEntre4 = 2014 % 4 == 0
-    let divisibleEntre100 = 2014 % 100 == 0
-    let divisibleEntre400 = 2014 % 400 == 0
+    private var year = 2014
+    private let divisibleEntre4 = 2014 % 4 == 0
+    private let divisibleEntre100 = 2014 % 100 == 0
+    private let divisibleEntre400 = 2014 % 400 == 0
     
-    func encontrarAñoVisiesto() {
+    func encontrarAñoVisiesto() -> String {
         if divisibleEntre4 && (!divisibleEntre100 || divisibleEntre400) {
-            print("El año \(year) es bisiesto")
+            return "El año \(year) es bisiesto"
         }
         else {
-            print("El año \(year) no es bisiesto")
+            return "El año \(year) no es bisiesto"
         }
-        
     }
 }
 
 
 class Condicionales7 {
-    var randomNumber = Int.random(in: 1..<3)
+    private var randomNumber = Int.random(in: 1..<3)
     
-    func encontrarNumeroRandom() {
+    func encontrarNumeroRandom() -> String {
         if (randomNumber == 1){
-            print("Cara")
+            return "Cara"
         } else if(randomNumber == 2) {
-            print("Sello")
+            return "Sello"
+        } else{
+            return "0"
         }
     }
 }
 
 class Condicionales8 {
-    var a:Int = 5
-    var b:Int = 6
-    var c:Int = 3
-    var d:Int = 4
+    private var a:Int = 5
+    private var b:Int = 6
+    private var c:Int = 3
+    private var d:Int = 4
     
-    func encontrarElMenor() {
+    func encontrarElMenor() -> String {
         var min = a
         if(min > b){
             min = b
@@ -124,52 +124,54 @@ class Condicionales8 {
         }else if(min > d){
             min = d
         }
-        print("El menor es: \(min)")
+        return "El menor es: \(min)"
     }
 }
 
 class Condicionales9 {
-    var numero: Int = 105
+    private var numero: Int = 105
     
-    func encontrarSiEsDivisible() {
+    func encontrarSiEsDivisible() -> String {
         
         if(numero % 3 == 0 && numero % 5 == 0 && numero % 7 == 0){
-            print("El numero es divisible netre 3, 5 y 7")
+            return "El numero es divisible netre 3, 5 y 7"
         }else {
-            print("El numero no es divisible entre 3, 5 y 7")
+            return "El numero no es divisible entre 3, 5 y 7"
         }
     }
 }
 
 class Condicionales10 {
-    var x: Int = 1
-    var y: Int = 2
-    var lowX: Int = 1
-    var lowY: Int = 1
-    var highX: Int = 3
-    var highY: Int = 3
+    private var x: Int = 1
+    private var y: Int = 2
+    private var lowX: Int = 1
+    private var lowY: Int = 1
+    private var highX: Int = 3
+    private var highY: Int = 3
     
-    func averiguarELPunto() {
+    func averiguarELPunto() -> String{
         if (x >= lowX && y >= lowY && x <= highX && y <= highY) {
-            print("Esta dentro")
+            return "Esta dentro"
         } else {
-            print("No esta dentro")
+            return "No esta dentro"
         }
     }
 }
 
 class Condicionales11 {
-    var puntosDeVida = Int.random(in: 1..<100)
-    //    var puntosDeVida: Int =
+    //var puntosDeVida = Int.random(in: 1..<100)
+       private var puntosDeVida: Int = 0
     
-    func regenerar() {
+    func regenerar() -> String{
         if(puntosDeVida>=21 && puntosDeVida<=95){
             let regenerando = puntosDeVida + 5
-            print("Regenerando + 5 puntos -> \(regenerando)")
+            return "Regenerando + 5 puntos -> \(regenerando)"
         }else if(puntosDeVida>=1  && puntosDeVida<=20) {
-            print("Regenerando hasta 20 puntos de vida")
+            return "Regenerando hasta 20 puntos de vida"
         }else if(puntosDeVida == 0){
-            print("No se puede regenerar (Esta Muerto...)")
+            return "No se puede regenerar (Esta Muerto...)"
+        } else {
+            return "0"
         }
     }
 }
