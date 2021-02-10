@@ -25,6 +25,9 @@
 		FB5D5A6825CA076E0027CB4F /* Ejercicio5MyTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A6725CA076E0027CB4F /* Ejercicio5MyTriangle.swift */; };
 		FB5D5A6D25CAEE080027CB4F /* Ejercicio5MyTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A6725CA076E0027CB4F /* Ejercicio5MyTriangle.swift */; };
 		FB5D5A7225CB0CE50027CB4F /* MyTriangleTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB5D5A7125CB0CE50027CB4F /* MyTriangleTest.swift */; };
+		FBD1051525D2F0DA00EC3EA6 /* Condicionales.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1051425D2F0DA00EC3EA6 /* Condicionales.swift */; };
+		FBD1052025D4410100EC3EA6 /* CondicionalesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1051F25D4410100EC3EA6 /* CondicionalesTest.swift */; };
+		FBD1052525D4410900EC3EA6 /* Condicionales.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1051425D2F0DA00EC3EA6 /* Condicionales.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -55,6 +58,8 @@
 		FB5D5A5925C9F7660027CB4F /* MyCircleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCircleTest.swift; sourceTree = "<group>"; };
 		FB5D5A6725CA076E0027CB4F /* Ejercicio5MyTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio5MyTriangle.swift; sourceTree = "<group>"; };
 		FB5D5A7125CB0CE50027CB4F /* MyTriangleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTriangleTest.swift; sourceTree = "<group>"; };
+		FBD1051425D2F0DA00EC3EA6 /* Condicionales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condicionales.swift; sourceTree = "<group>"; };
+		FBD1051F25D4410100EC3EA6 /* CondicionalesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondicionalesTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +101,7 @@
 		FB53486125ADEFFC00B1003B /* Proyecto 1E */ = {
 			isa = PBXGroup;
 			children = (
+				FBD1051325D2EFB000EC3EA6 /* Condicionales */,
 				FB53486225ADEFFC00B1003B /* main.swift */,
 				FB5D5A3025C8B8770027CB4F /* Ejercicio1 */,
 				FB5D5A3125C8B8830027CB4F /* Ejercicio2 */,
@@ -109,6 +115,7 @@
 		FB53488F25B1F07600B1003B /* Proyecto 1ETests */ = {
 			isa = PBXGroup;
 			children = (
+				FBD1051E25D440B400EC3EA6 /* Condicionales */,
 				FB5D5A7025CB0CBA0027CB4F /* Ejercicio5 */,
 				FB5D5A2E25C8B83A0027CB4F /* Ejercicio1 */,
 				FB5D5A2F25C8B84A0027CB4F /* Ejercicio2 */,
@@ -198,6 +205,22 @@
 				FB5D5A7125CB0CE50027CB4F /* MyTriangleTest.swift */,
 			);
 			path = Ejercicio5;
+			sourceTree = "<group>";
+		};
+		FBD1051325D2EFB000EC3EA6 /* Condicionales */ = {
+			isa = PBXGroup;
+			children = (
+				FBD1051425D2F0DA00EC3EA6 /* Condicionales.swift */,
+			);
+			path = Condicionales;
+			sourceTree = "<group>";
+		};
+		FBD1051E25D440B400EC3EA6 /* Condicionales */ = {
+			isa = PBXGroup;
+			children = (
+				FBD1051F25D4410100EC3EA6 /* CondicionalesTest.swift */,
+			);
+			path = Condicionales;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,6 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB53486325ADEFFC00B1003B /* main.swift in Sources */,
+				FBD1051525D2F0DA00EC3EA6 /* Condicionales.swift in Sources */,
 				FB5D5A6825CA076E0027CB4F /* Ejercicio5MyTriangle.swift in Sources */,
 				FB5D5A1D25C89E6B0027CB4F /* Ejercicio2AutorYLibro.swift in Sources */,
 				FB5D5A3C25C99EA00027CB4F /* Ejercicio3MyPoint.swift in Sources */,
@@ -302,6 +326,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBD1052025D4410100EC3EA6 /* CondicionalesTest.swift in Sources */,
+				FBD1052525D4410900EC3EA6 /* Condicionales.swift in Sources */,
 				FB5D5A2B25C8B2870027CB4F /* LibroTest.swift in Sources */,
 				FB5D5A5A25C9F7660027CB4F /* MyCircleTest.swift in Sources */,
 				FB5D5A2725C8B25D0027CB4F /* Ejercicio2AutorYLibro.swift in Sources */,
