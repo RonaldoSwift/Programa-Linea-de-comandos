@@ -28,6 +28,7 @@
 		FBD1051525D2F0DA00EC3EA6 /* Condicionales.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1051425D2F0DA00EC3EA6 /* Condicionales.swift */; };
 		FBD1052025D4410100EC3EA6 /* CondicionalesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1051F25D4410100EC3EA6 /* CondicionalesTest.swift */; };
 		FBD1052525D4410900EC3EA6 /* Condicionales.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1051425D2F0DA00EC3EA6 /* Condicionales.swift */; };
+		FBD1052E25D49E7C00EC3EA6 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1052D25D49E7C00EC3EA6 /* Arrays.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -60,6 +61,7 @@
 		FB5D5A7125CB0CE50027CB4F /* MyTriangleTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTriangleTest.swift; sourceTree = "<group>"; };
 		FBD1051425D2F0DA00EC3EA6 /* Condicionales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condicionales.swift; sourceTree = "<group>"; };
 		FBD1051F25D4410100EC3EA6 /* CondicionalesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondicionalesTest.swift; sourceTree = "<group>"; };
+		FBD1052D25D49E7C00EC3EA6 /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		FB53486125ADEFFC00B1003B /* Proyecto 1E */ = {
 			isa = PBXGroup;
 			children = (
+				FBD1052C25D49E6000EC3EA6 /* Arrays */,
 				FBD1051325D2EFB000EC3EA6 /* Condicionales */,
 				FB53486225ADEFFC00B1003B /* main.swift */,
 				FB5D5A3025C8B8770027CB4F /* Ejercicio1 */,
@@ -223,6 +226,14 @@
 			path = Condicionales;
 			sourceTree = "<group>";
 		};
+		FBD1052C25D49E6000EC3EA6 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				FBD1052D25D49E7C00EC3EA6 /* Arrays.swift */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -313,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB53486325ADEFFC00B1003B /* main.swift in Sources */,
+				FBD1052E25D49E7C00EC3EA6 /* Arrays.swift in Sources */,
 				FBD1051525D2F0DA00EC3EA6 /* Condicionales.swift in Sources */,
 				FB5D5A6825CA076E0027CB4F /* Ejercicio5MyTriangle.swift in Sources */,
 				FB5D5A1D25C89E6B0027CB4F /* Ejercicio2AutorYLibro.swift in Sources */,
