@@ -80,9 +80,7 @@ class Ejemplos {
 
 
 class Array {
-    
-    private var numeros: [Int] = [5,2,3,4,5]
-    
+        
     func encontrarNumero(numeros:[Int]) -> Bool{
         if numeros.first == 5 || numeros.last == 5 {
             return true
@@ -93,7 +91,6 @@ class Array {
 }
 
 class Array2 {
-    private var numerosIguales: [Int] = [1,2,3,4,1]
     
     func encontrarNumerosALosExtremos(numerosIguales: [Int]) -> Bool {
         if(numerosIguales.first == numerosIguales.last) {
@@ -105,8 +102,6 @@ class Array2 {
 }
 
 class Array3 {
-    private var numeros1: [Int] = [1,2,3,4,5]
-    private var numeros2: [Int] = [1,7,8,9,5]
     
     func comprobarMatrices(numeros1:[Int], numeros2:[Int]) -> Bool {
         
@@ -169,14 +164,22 @@ class Array8 {
     }
 }
 
-class Array90 {
-    func unirArray(numeros1: [Int], numeros2: [Int]) ->Int{
-        let primerElemento = numeros1
-        let segundoElemento = numeros2
+class Array9 {
+    func unirArray(numeros1: [Int], numeros2: [Int]) ->[Int]{
+        var primerElemento: [Int] = []
+        primerElemento.append(numeros1[1])
+        primerElemento.append(numeros2[1])
         
-        if(primerElemento == [1] && segundoElemento == [1]) {
-            return [1]
-        }
+        return primerElemento
+    }
+}
+
+class Array10 {
+    func crearNuevoArray(numeros: [Int]) -> [Int]{
+        var primerNumero: [Int] = []
+        primerNumero.append(numeros[0])
+        primerNumero.append(numeros.last!)
         
+        return primerNumero
     }
 }
