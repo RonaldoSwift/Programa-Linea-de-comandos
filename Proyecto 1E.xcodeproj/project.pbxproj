@@ -29,6 +29,8 @@
 		FBD1052025D4410100EC3EA6 /* CondicionalesTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1051F25D4410100EC3EA6 /* CondicionalesTest.swift */; };
 		FBD1052525D4410900EC3EA6 /* Condicionales.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1051425D2F0DA00EC3EA6 /* Condicionales.swift */; };
 		FBD1052E25D49E7C00EC3EA6 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1052D25D49E7C00EC3EA6 /* Arrays.swift */; };
+		FBD1053525D5F0F300EC3EA6 /* ArraysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1053425D5F0F300EC3EA6 /* ArraysTest.swift */; };
+		FBD1053A25D5F15F00EC3EA6 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1052D25D49E7C00EC3EA6 /* Arrays.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -62,6 +64,7 @@
 		FBD1051425D2F0DA00EC3EA6 /* Condicionales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Condicionales.swift; sourceTree = "<group>"; };
 		FBD1051F25D4410100EC3EA6 /* CondicionalesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondicionalesTest.swift; sourceTree = "<group>"; };
 		FBD1052D25D49E7C00EC3EA6 /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
+		FBD1053425D5F0F300EC3EA6 /* ArraysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,7 @@
 		FB53488F25B1F07600B1003B /* Proyecto 1ETests */ = {
 			isa = PBXGroup;
 			children = (
+				FBD1053325D5F0C600EC3EA6 /* Arrays */,
 				FBD1051E25D440B400EC3EA6 /* Condicionales */,
 				FB5D5A7025CB0CBA0027CB4F /* Ejercicio5 */,
 				FB5D5A2E25C8B83A0027CB4F /* Ejercicio1 */,
@@ -234,6 +238,14 @@
 			path = Arrays;
 			sourceTree = "<group>";
 		};
+		FBD1053325D5F0C600EC3EA6 /* Arrays */ = {
+			isa = PBXGroup;
+			children = (
+				FBD1053425D5F0F300EC3EA6 /* ArraysTest.swift */,
+			);
+			path = Arrays;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -346,6 +358,8 @@
 				FB5D5A7225CB0CE50027CB4F /* MyTriangleTest.swift in Sources */,
 				FB5D5A0925C86DA30027CB4F /* Ejercicio1CirculoTest.swift in Sources */,
 				FB5D5A5F25C9FEE10027CB4F /* Ejercicio4MyCircle.swift in Sources */,
+				FBD1053525D5F0F300EC3EA6 /* ArraysTest.swift in Sources */,
+				FBD1053A25D5F15F00EC3EA6 /* Arrays.swift in Sources */,
 				FB5D5A6D25CAEE080027CB4F /* Ejercicio5MyTriangle.swift in Sources */,
 				FB5D5A2225C8AF420027CB4F /* AutorTest.swift in Sources */,
 				FB5D5A4425C9AEF20027CB4F /* MyPointTest.swift in Sources */,
