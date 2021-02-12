@@ -186,3 +186,35 @@ class Array10 {
         return primerNumero
     }
 }
+
+//*************************************************************
+
+
+class ejemplo2 {
+    var listaDeNumeros = [1,2,3,4,5]
+    
+    func numero() {
+        for numeros in listaDeNumeros{
+            print(numeros)
+        }
+    }
+    
+//    AÑADIR OTRO ARRAY UTILIZANDO: var numbers: [Int] = [1,2,3] , number += [4,5,6]
+}
+
+
+class Array11 {
+    var numeros: [Int] = [3,5,3,3,4]
+    var numeroMax: Int = 0
+    
+    func encontrarValorMaximo() -> Int? {
+        
+        for i in 0...4{
+            if(numeros[0] < numeros[i] ){
+                numeros[0] = numeros[i]
+
+            }
+        }
+        return numeros[0]
+    }
+}

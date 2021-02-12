@@ -19,7 +19,8 @@ class ArraysTest: XCTestCase {
     var arrays8 : Array8!
     var arrays9 : Array9!
     var arrays10 : Array10!
-    
+    var arrays11 : Array11!
+
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         arrays = Array()
@@ -32,6 +33,7 @@ class ArraysTest: XCTestCase {
         arrays8 = Array8()
         arrays9 = Array9()
         arrays10 = Array10()
+        arrays11 = Array11()
 
     }
 
@@ -108,6 +110,10 @@ class ArraysTest: XCTestCase {
         let numero: [Int] = [1,2,3]
         
         XCTAssertEqual([1,3], arrays10.crearNuevoArray(numeros: numero))
+    }
+    
+    func testArray11() throws {
+        XCTAssertEqual(5, arrays11.encontrarValorMaximo())
     }
     
     func testPerformanceExample() throws {
