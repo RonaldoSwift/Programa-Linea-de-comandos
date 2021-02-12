@@ -134,18 +134,21 @@ class Array5 {
 class Array6 {
     
     func ponerEnReversa(numeros: [Int]) -> [Int]{
-        let primer = numeros
-        primer.reversed()
-        return primer
+        return [numeros[2], numeros[1], numeros[0]]
     }
 }
 
 class Array7 {
     
     func encontrarValorMax(numeros: [Int]) -> [Int] {
-        let maximo = numeros
-        maximo.max()
-        maximo.count
+        var maximo = numeros
+        if(maximo.first! > maximo.last!){
+            maximo[1] = maximo.first!
+            maximo[2] = maximo.first!
+        }else {
+            maximo[0] = maximo.last!
+            maximo[1] = maximo.last!
+        }
         return maximo
     }
 }
