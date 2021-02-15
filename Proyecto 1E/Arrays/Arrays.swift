@@ -179,11 +179,8 @@ class Array16{
 
 class Array17{
     func ordenarValoresDesendentes(numeros: [Int]) {
-        for i in 0..<numeros.count {
-            if(numeros[i] > numeros[i+1]){
-                print(numeros[i])
-            }
-        }
+        print(numeros.sorted(by: {$0 > $1}))
+        
     }
 }
 

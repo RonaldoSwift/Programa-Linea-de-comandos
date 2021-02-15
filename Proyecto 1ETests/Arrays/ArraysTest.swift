@@ -156,7 +156,7 @@ class ArraysTest: XCTestCase {
     }
     
     func testArray17() throws{
-        let numeros: [Int] = [1,7,5,0,3]
+        let numeros: [Int] = [1,20,11,8,3]
         arrays17.ordenarValoresDesendentes(numeros: numeros )
     }
     
