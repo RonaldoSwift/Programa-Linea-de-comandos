@@ -20,6 +20,10 @@ class ArraysTest: XCTestCase {
     var arrays9 : Array9!
     var arrays10 : Array10!
     var arrays11 : Array11!
+    var arrays12 : Array12!
+    var arrays13 : Array13!
+    var arrays14 : Array14!
+    var arrays15 : Array15!
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -34,6 +38,10 @@ class ArraysTest: XCTestCase {
         arrays9 = Array9()
         arrays10 = Array10()
         arrays11 = Array11()
+        arrays12 = Array12()
+        arrays13 = Array13()
+        arrays14 = Array14()
+        arrays15 = Array15()
 
     }
 
@@ -115,6 +123,26 @@ class ArraysTest: XCTestCase {
     func testArray11() throws {
         XCTAssertEqual(5, arrays11.encontrarValorMaximo())
     }
+    
+    func testArray12() throws {
+        arrays12.imprimirNumerosImpares()
+    }
+    
+    func testArray13() throws{
+        XCTAssertEqual(116, arrays13.sumarNumeros())
+    }
+    
+    func testArray14() throws{
+        arrays14.imprimirIndicesImpares(numeros: [10,15,30,50,11,10,60])
+    }
+    
+    func testArray15() throws{
+        XCTAssertEqual([100,10,3,2,1], arrays15.imprimirEnReversa())
+    }
+    
+    
+    
+    
     
     func testPerformanceExample() throws {
         // This is an example of a performance test case.

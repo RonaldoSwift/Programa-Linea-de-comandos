@@ -212,9 +212,46 @@ class Array11 {
         for i in 0...4{
             if(numeros[0] < numeros[i] ){
                 numeros[0] = numeros[i]
-
             }
         }
         return numeros[0]
+    }
+}
+
+class Array12{
+    var numerosLista: [Int] = [1,2,3,10,100]
+    
+    func imprimirNumerosImpares(){
+        for i in numerosLista {
+            if(i % 2 != 0){
+                print([i])
+            }
+        }
+    }
+}
+
+class Array13{
+    var numeros: [Int] = [1,2,3,10,100]
+    func sumarNumeros() -> Int{
+        return numeros.reduce(0, +)
+    }
+}
+
+class Array14{
+    
+    func imprimirIndicesImpares(numeros: [Int]) {
+        for i in 0..<numeros.count{
+            if(i % 2 != 0){
+                print(numeros[i])
+            }
+        }
+    }
+}
+
+class Array15{
+    var numerosLista: [Int] = [1,2,3,10,100]
+    
+    func imprimirEnReversa() -> [Int]{
+        return numerosLista.reversed()
     }
 }
