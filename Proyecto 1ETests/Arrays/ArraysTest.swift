@@ -24,7 +24,12 @@ class ArraysTest: XCTestCase {
     var arrays13 : Array13!
     var arrays14 : Array14!
     var arrays15 : Array15!
-
+    var arrays16 : Array16!
+    var arrays17 : Array17!
+    var arrays18 : Array18!
+    var arrays19 : Array19!
+    var arrays20 : Array20!
+    
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
         arrays = Array()
@@ -42,13 +47,18 @@ class ArraysTest: XCTestCase {
         arrays13 = Array13()
         arrays14 = Array14()
         arrays15 = Array15()
+        arrays16 = Array16()
+        arrays17 = Array17()
+        arrays18 = Array18()
+        arrays19 = Array19()
+        arrays20 = Array20()
 
     }
-
+    
     override func tearDownWithError() throws {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
-
+    
     func testArray() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
@@ -140,9 +150,34 @@ class ArraysTest: XCTestCase {
         XCTAssertEqual([100,10,3,2,1], arrays15.imprimirEnReversa())
     }
     
+    func testArray16() throws{
+        let numeros: [Int] = [1,2,3,4,5]
+        XCTAssertEqual([5,4,3,2,1], arrays16.imprimirInversa(numeros: numeros))
+    }
     
+    func testArray17() throws{
+        let numeros: [Int] = [1,7,5,0,3]
+        arrays17.ordenarValoresDesendentes(numeros: numeros )
+    }
     
+    func testArray18() throws{
+        let numeros: [Int] = [1,2,3,4,5]
+        let numeros2: [Int] = [3,5,7]
+        
+        arrays18.averiguarSiXEstaEnArray(numeros: numeros, numeros2: numeros2)
+    }
     
+    func testArray19() throws{
+        let numeros: [Int] = [6,7,8,9]
+        let numeros2: [Int] = [6,7,1,2]
+        arrays19.encontrarNumerosParecidos(numeros: numeros, numeros2: numeros2)
+    }
+    
+    func testArray20() throws{
+        let numeros: [Int] = [4,5,6,7,8]
+        let numeros2: [Int] = [2,4]
+        arrays20.divirNumero(numeros: numeros, numeros2: numeros2)
+    }
     
     func testPerformanceExample() throws {
         // This is an example of a performance test case.

@@ -31,6 +31,7 @@
 		FBD1052E25D49E7C00EC3EA6 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1052D25D49E7C00EC3EA6 /* Arrays.swift */; };
 		FBD1053525D5F0F300EC3EA6 /* ArraysTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1053425D5F0F300EC3EA6 /* ArraysTest.swift */; };
 		FBD1053A25D5F15F00EC3EA6 /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1052D25D49E7C00EC3EA6 /* Arrays.swift */; };
+		FBD1054125DB1C0200EC3EA6 /* EjemplosArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBD1054025DB1C0200EC3EA6 /* EjemplosArrays.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -65,6 +66,7 @@
 		FBD1051F25D4410100EC3EA6 /* CondicionalesTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CondicionalesTest.swift; sourceTree = "<group>"; };
 		FBD1052D25D49E7C00EC3EA6 /* Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
 		FBD1053425D5F0F300EC3EA6 /* ArraysTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysTest.swift; sourceTree = "<group>"; };
+		FBD1054025DB1C0200EC3EA6 /* EjemplosArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EjemplosArrays.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +236,7 @@
 			isa = PBXGroup;
 			children = (
 				FBD1052D25D49E7C00EC3EA6 /* Arrays.swift */,
+				FBD1054025DB1C0200EC3EA6 /* EjemplosArrays.swift */,
 			);
 			path = Arrays;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB53486325ADEFFC00B1003B /* main.swift in Sources */,
+				FBD1054125DB1C0200EC3EA6 /* EjemplosArrays.swift in Sources */,
 				FBD1052E25D49E7C00EC3EA6 /* Arrays.swift in Sources */,
 				FBD1051525D2F0DA00EC3EA6 /* Condicionales.swift in Sources */,
 				FB5D5A6825CA076E0027CB4F /* Ejercicio5MyTriangle.swift in Sources */,
