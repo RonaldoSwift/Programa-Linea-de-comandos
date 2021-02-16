@@ -197,11 +197,11 @@ class Array18{
 }
 
 class Array19{
-    func encontrarNumerosParecidos(numeros: [Int], numeros2: [Int]) {
-        for numeros2 in numeros2{
-            for i in numeros{
-                if (i == numeros2){
-                    print(i)
+    func encontrarNumerosParecidos(numeros: [Int], n2: [Int]) {
+        for n2 in n2{
+            for n in numeros{
+                if (n == n2){
+                    print(n)
                 }
             }
         }
@@ -210,11 +210,11 @@ class Array19{
 
 
 class Array20{
-    func divirNumero(numeros: [Int], numeros2: [Int]){
-        for i in numeros{
-            for numeros2 in numeros2{
-                if i % numeros2 == 0 {
-                    print(i)
+    func divirNumero(numeros: [Int], n2: [Int]){
+        for n in numeros{
+            for n2 in n2{
+                if n % n2 == 0 {
+                    print(n)
                 }
             }
         }
