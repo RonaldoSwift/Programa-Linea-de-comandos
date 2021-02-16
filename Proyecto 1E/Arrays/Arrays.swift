@@ -186,8 +186,8 @@ class Array17{
 
 class Array18{
     func averiguarSiXEstaEnArray(numeros:[Int], numeros2: [Int]){
-        for i in numeros{
-            if(numeros == [numeros2[i]]){
+        for n1 in numeros{
+            if([n1] == numeros2){
                 print(true)
             }else {
                 print(false)

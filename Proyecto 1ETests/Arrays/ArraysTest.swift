@@ -71,8 +71,8 @@ class ArraysTest: XCTestCase {
     func testArray2() throws {
         let nuevoNumeros: [Int] = [6,5,7,6]
         let nuevoNumeros2: [Int] = [4,5,6,7]
-        XCTAssertEqual(true, arrays2.encontrarNumerosALosExtremos(numerosIguales: nuevoNumeros))
-        XCTAssertEqual(false, arrays2.encontrarNumerosALosExtremos(numerosIguales: nuevoNumeros2))
+        XCTAssertEqual(true, arrays2.encontrarNumerosALosExtremos(array: nuevoNumeros))
+        XCTAssertEqual(false, arrays2.encontrarNumerosALosExtremos(array: nuevoNumeros2))
     }
     
     func testArray3() throws {
