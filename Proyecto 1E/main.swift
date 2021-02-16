@@ -37,8 +37,10 @@ condicionales8.encontrarElMenor()
 
 var condicionales9 = Condicionales9()
 condicionales9.encontrarSiEsDivisible()
-*/
+
 
 var condicionales11 = Condicionales11()
 condicionales11.regenerar()
 print("hoka")
+*/
+
