@@ -62,72 +62,72 @@ class ArraysTest: XCTestCase {
     func testArray() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-        let numero: [Int] = [5,2,3,5]
-        let numero2: [Int] = [1,2,3,4]
-        XCTAssertEqual(true, arrays.encontrarNumero(numeros: numero))
-        XCTAssertEqual(false, arrays.encontrarNumero(numeros: numero2))
+        let nuevoNumeros: [Int] = [5,2,3,5]
+        let nuevoNumeros2: [Int] = [1,2,3,4]
+        XCTAssertEqual(true, arrays.tieneAl5AlInicioOFinal(numeros: nuevoNumeros))
+        XCTAssertEqual(false, arrays.tieneAl5AlInicioOFinal(numeros: nuevoNumeros2))
     }
     
     func testArray2() throws {
-        let numero: [Int] = [6,5,7,6]
-        let numero2: [Int] = [4,5,6,7]
-        XCTAssertEqual(true, arrays2.encontrarNumerosALosExtremos(numerosIguales: numero))
-        XCTAssertEqual(false, arrays2.encontrarNumerosALosExtremos(numerosIguales: numero2))
+        let nuevoNumeros: [Int] = [6,5,7,6]
+        let nuevoNumeros2: [Int] = [4,5,6,7]
+        XCTAssertEqual(true, arrays2.encontrarNumerosALosExtremos(numerosIguales: nuevoNumeros))
+        XCTAssertEqual(false, arrays2.encontrarNumerosALosExtremos(numerosIguales: nuevoNumeros2))
     }
     
     func testArray3() throws {
-        let numero1: [Int] = [1,2,3,4]
-        let numero2: [Int] = [1,2,3,4]
-        let numero3: [Int] = [5,6,7,8]
+        let nuevoNumeros1: [Int] = [1,2,3,4]
+        let nuevoNumeros2: [Int] = [1,2,3,4]
+        let nuevoNumeros3: [Int] = [5,6,7,8]
         
-        XCTAssertEqual(true, arrays3.comprobarMatrices(numeros1: numero1, numeros2: numero2))
-        XCTAssertEqual(false, arrays3.comprobarMatrices(numeros1: numero2, numeros2: numero3))
+        XCTAssertEqual(true, arrays3.comprobrarPrimerYUltimoElementoIguales(numeros1: nuevoNumeros1, numeros2: nuevoNumeros2))
+        XCTAssertEqual(false, arrays3.comprobrarPrimerYUltimoElementoIguales(numeros1: nuevoNumeros2, numeros2: nuevoNumeros3))
     }
     
     func testArray4() throws {
-        let numero: [Int] = [1,2,3,4]
+        let nuevoNumeros: [Int] = [1,2,3,4]
         
-        XCTAssertEqual(10, arrays4.calcularSuma(numeros1: numero))
+        XCTAssertEqual(10, arrays4.calcularSuma(numeros1: nuevoNumeros))
     }
     
     func testArray5() throws {
-        let numero: [Int] = [1,2,3,4]
+        let nuevoNumeros: [Int] = [1,2,3,4]
         
-        XCTAssertEqual([2,3,4,2], arrays5.rotar(numeros: numero))
+        XCTAssertEqual([2,3,4,2], arrays5.rotar(numeros: nuevoNumeros))
     }
     
     func testArray6() throws {
-        let numero: [Int] = [1,2,3]
+        let nuevoNumeros: [Int] = [1,2,3]
         
-        XCTAssertEqual([3,2,1], arrays6.ponerEnReversa(numeros: numero))
+        XCTAssertEqual([3,2,1], arrays6.ponerEnReversa(numeros: nuevoNumeros))
     }
     
     func testArray7() throws {
-        let numero: [Int] = [1,2,3]
-        XCTAssertEqual([3,3,3], arrays7.encontrarValorMax(numeros: numero))
+        let nuevoNumeros: [Int] = [1,2,3]
+        XCTAssertEqual([3,3,3], arrays7.encontrarValorMax(numeros: nuevoNumeros))
     }
     
     func testArray8() throws {
-        let numero: [Int] = [1,2,3]
-        let numero2: [Int] = [0,0,0]
-        let numero3: [Int] = [0,1,0]
-        let numero4: [Int] = [0]
-        XCTAssertEqual(3, arrays8.calcularSumaDePrimerosElementos(numeros: numero))
-        XCTAssertEqual(0, arrays8.calcularSumaDePrimerosElementos(numeros: numero2))
-        XCTAssertEqual(1, arrays8.calcularSumaDePrimerosElementos(numeros: numero3))
-        XCTAssertEqual(0, arrays8.calcularSumaDePrimerosElementos(numeros: numero4))
+        let nuevoNumeros: [Int] = [1,2,3]
+        let nuevoNumeros2: [Int] = [0,0,0]
+        let nuevoNumeros3: [Int] = [0,1,0]
+        let nuevoNumeros4: [Int] = [0]
+        XCTAssertEqual(3, arrays8.calcularSumaDePrimerosElementos(numeros: nuevoNumeros))
+        XCTAssertEqual(0, arrays8.calcularSumaDePrimerosElementos(numeros: nuevoNumeros2))
+        XCTAssertEqual(1, arrays8.calcularSumaDePrimerosElementos(numeros: nuevoNumeros3))
+        XCTAssertEqual(0, arrays8.calcularSumaDePrimerosElementos(numeros: nuevoNumeros4))
     }
     
     func testArray9() throws {
-        let numero: [Int] = [1,2,3]
-        let numero2: [Int] = [4,5,6]
-        XCTAssertEqual([2,5], arrays9.unirArray(numeros1: numero, numeros2: numero2))
+        let nuevoNumeros: [Int] = [1,2,3]
+        let nuevoNumeros2: [Int] = [4,5,6]
+        XCTAssertEqual([2,5], arrays9.unirArray(numeros1: nuevoNumeros, numeros2: nuevoNumeros2))
     }
     
     func testArray10() throws {
-        let numero: [Int] = [1,2,3]
+        let nuevoNumeros: [Int] = [1,2,3]
         
-        XCTAssertEqual([1,3], arrays10.crearNuevoArray(numeros: numero))
+        XCTAssertEqual([1,3], arrays10.crearNuevoArray(numeros: nuevoNumeros))
     }
     
     func testArray11() throws {
@@ -151,32 +151,32 @@ class ArraysTest: XCTestCase {
     }
     
     func testArray16() throws{
-        let numeros: [Int] = [1,2,3,4,5]
-        XCTAssertEqual([5,4,3,2,1], arrays16.imprimirInversa(numeros: numeros))
+        let nuevoNumeros: [Int] = [1,2,3,4,5]
+        XCTAssertEqual([5,4,3,2,1], arrays16.imprimirInversa(numeros: nuevoNumeros))
     }
     
     func testArray17() throws{
-        let numeros: [Int] = [1,20,11,8,3]
-        arrays17.ordenarValoresDesendentes(numeros: numeros )
+        let nuevoNumeros: [Int] = [1,20,11,8,3]
+        arrays17.ordenarValoresDesendentes(numeros: nuevoNumeros )
     }
     
     func testArray18() throws{
-        let numeros: [Int] = [1,2,3,4,5]
-        let numeros2: [Int] = [3,5,7]
+        let nuevoNumeros: [Int] = [1,2,3,4,5]
+        let nuevoNumeros2: [Int] = [3,5,7]
         
-        arrays18.averiguarSiXEstaEnArray(numeros: numeros, numeros2: numeros2)
+        arrays18.averiguarSiXEstaEnArray(numeros: nuevoNumeros, numeros2: nuevoNumeros2)
     }
     
     func testArray19() throws{
-        let numeros: [Int] = [6,7,8,9]
-        let numeros2: [Int] = [6,7,1,2]
-        arrays19.encontrarNumerosParecidos(numeros: numeros, numeros2: numeros2)
+        let nuevoNumeros: [Int] = [6,7,8,9]
+        let nuevoNumeros2: [Int] = [6,7,1,2]
+        arrays19.encontrarNumerosParecidos(numeros: nuevoNumeros, numeros2: nuevoNumeros2)
     }
     
     func testArray20() throws{
-        let numeros: [Int] = [4,5,6,7,8]
-        let numeros2: [Int] = [2,4]
-        arrays20.divirNumero(numeros: numeros, numeros2: numeros2)
+        let nuevoNumeros: [Int] = [4,5,6,7,8]
+        let nuevoNumeros2: [Int] = [2,4]
+        arrays20.divirNumero(numeros: nuevoNumeros, numeros2: nuevoNumeros2)
     }
     
     func testPerformanceExample() throws {

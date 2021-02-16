@@ -9,7 +9,7 @@ import Foundation
 
 class Array {
     
-    func encontrarNumero(numeros:[Int]) -> Bool{
+    func tieneAl5AlInicioOFinal(numeros:[Int]) -> Bool {
         if numeros.first == 5 || numeros.last == 5 {
             return true
         } else {
@@ -20,8 +20,8 @@ class Array {
 
 class Array2 {
     
-    func encontrarNumerosALosExtremos(numerosIguales: [Int]) -> Bool {
-        if(numerosIguales.first == numerosIguales.last) {
+    func encontrarNumerosALosExtremos(array: [Int]) -> Bool {
+        if(array.first == array.last) {
             return true
         }else {
             return false
@@ -31,7 +31,7 @@ class Array2 {
 
 class Array3 {
     
-    func comprobarMatrices(numeros1:[Int], numeros2:[Int]) -> Bool {
+    func comprobrarPrimerYUltimoElementoIguales(numeros1:[Int], numeros2:[Int]) -> Bool {
         
         if(numeros1.first == numeros2.first && numeros1.last == numeros2.last) {
             return true
@@ -52,17 +52,17 @@ class Array5 {
     
     func rotar(numeros: [Int])-> [Int] {
         
-        var numero = numeros
-        numero.removeFirst()
-        numero.append(numero.first!)
-        return numero
+        var nuevoNumeros = numeros
+        nuevoNumeros.removeFirst()
+        nuevoNumeros.append(nuevoNumeros.first!)
+        return nuevoNumeros
     }
 }
 
 class Array6 {
     
     func ponerEnReversa(numeros: [Int]) -> [Int]{
-        return [numeros[2], numeros[1], numeros[0]]
+        return numeros.reversed()
     }
 }
 
@@ -107,11 +107,11 @@ class Array9 {
 
 class Array10 {
     func crearNuevoArray(numeros: [Int]) -> [Int]{
-        var primerNumero: [Int] = []
-        primerNumero.append(numeros[0])
-        primerNumero.append(numeros.last!)
+        var nuevoArray: [Int] = []
+        nuevoArray.append(numeros[0])
+        nuevoArray.append(numeros.last!)
         
-        return primerNumero
+        return nuevoArray
     }
 }
 
